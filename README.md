@@ -1,7 +1,26 @@
 # **Awesome Text2SQL**🎉🎉🎉
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/Awesome-Text2SQL?style=social)](https://github.com/eosphoros-ai/Awesome-Text2SQL/)
+[![GitHub Repo forks](https://img.shields.io/github/forks/eosphoros-ai/Awesome-Text2SQL?style=social)](https://github.com/eosphoros-ai/Awesome-Text2SQL/)
+[![Awesome](https://camo.githubusercontent.com/64f8905651212a80869afbecbf0a9c52a5d1e70beab750dea40a994fa9a9f3c6/68747470733a2f2f617765736f6d652e72652f62616467652e737667)](https://github.com/eosphoros-ai/Awesome-Text2SQL/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
+![](https://img.shields.io/github/last-commit/eosphoros-ai/Awesome-Text2SQL?color=green)
+
+**English** | [**中文版**](README.zh.md)
+
 Curated tutorials and resources for Large Language Models, Text2SQL, and more.
 
-## 👋Introduction
+## 📜 Contents
+- [👋 Introduction](#-introduction)
+- [📖 Survey](#-survey)
+- [🔥 Base Model](#-base-model)
+- [💡 Fine-tuning](#-fine-tuning)
+- [💪 Dataset](#-dataset)
+- [🌈 Evaluation Index](#-evaluation-index)
+- [🔧 Practice Project](#-practice-project)
+- [🤝 Friendship Links](#-friendship-links)
+
+## 👋 Introduction
 - Text-to-SQL (or Text2SQL), as the name implies, is to convert text into SQL. A more academic definition is to convert natural language problems in the database field into structured query languages ​​that can be executed in relational databases. Therefore, Text-to-SQL can also be abbreviated as NL2SQL.
   - Input: natural language questions, such as "*Query the relevant information of the table t_user, and the results are sorted in descending order by id, and only the first 10 data are kept.*"
   - Output: SQL, such as "*SELECT * FROM t_user ORDER BY id DESC LIMIT 10*"
@@ -12,7 +31,7 @@ Curated tutorials and resources for Large Language Models, Text2SQL, and more.
 - (2022-International Conference on Computational Linguistics, COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
-## 🔥Base Model
+## 🔥 Base Model
 - Llama [[paper](https://arxiv.org/pdf/2302.13971.pdf)] [[code](https://github.com/facebookresearch/llama)] [[model](https://huggingface.co/meta-llama)]
   - 2023/02, Meta AI proposes the open source LLM Llama, which has four scales: 7b, 13b, 33b, and 65b.
 
@@ -32,7 +51,7 @@ Curated tutorials and resources for Large Language Models, Text2SQL, and more.
   - 2023/08, Meta AI proposes Code LLama, based on Llama 2. Code Llama reaches state-of-the-art performance among open models on several code benchmarks. There are foundation models (Code Llama), Python specializations (Code Llama - Python), and instruction-following models,  with 7B, 13B and 34B parameters each.
 
 
- ## 💡Fine-tuning
+ ## 💡 Fine-tuning
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
   - 2021/03, Tsinghua University and others propose P-Tuning, a fine-tuning method for LLM, which uses trainable continuous prompt word embeddings to reduce the cost of fine-tuning.
 
@@ -49,7 +68,7 @@ Curated tutorials and resources for Large Language Models, Text2SQL, and more.
   - 2023/05, Washington University proposes the qlora method, based on the frozen 4bit quantization model, combined with LoRA method training, which further reduces the cost of fine-tuning.
 
 
-## 💪Dataset
+## 💪 Dataset
 - WikiSQL [[paper](https://arxiv.org/pdf/1709.00103.pdf)] [[code](https://github.com/salesforce/WikiSQL)] [[dataset](https://github.com/salesforce/WikiSQL)]
   - 2017/09, Salesforce proposes a large Text-to-SQL dataset WikiSQL, the data comes from Wikipedia, which belongs to a single domain, contains 80,654 natural language questions, and 77,840 SQL statements. The form of SQL statements is relatively simple, and does not include sorting, grouping, and subqueries and other complex operations.
 
