@@ -10,6 +10,9 @@
 
 Curated tutorials and resources for Large Language Models, Text2SQL, and more.
 
+## 🌱 How to Contribute
+We warmly welcome contributions from everyone, whether you've found a typo, a bug, have a suggestion, or want to share a resource related to LLM+Text2SQL. For detailed guidelines on how to contribute, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
 ## 📜 Contents
 - [👋 Introduction](#-introduction)
 - [📖 Survey](#-survey)
