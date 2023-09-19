@@ -16,6 +16,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 ## 📜 Contents
 - [👋 Introduction](#-introduction)
 - [📖 Survey](#-survey)
+- [💬 Classic Model](#-classic-model)
 - [🔥 Base Model](#-base-model)
 - [💡 Fine-tuning](#-fine-tuning)
 - [💪 Dataset](#-dataset)
@@ -33,6 +34,73 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2022-IEEE Transactions on Knowledge and Data Engineering, TKDE, CCF-A) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
 - (2022-International Conference on Computational Linguistics, COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
+
+## 💬 Classic Model
+
+- (2022-ACL, CCF-A) **S^2SQL**: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
+[[paper](https://aclanthology.org/2022.findings-acl.99.pdf)]
+
+- (2022-NAACL, CCF-B) **SeaD**: End-to-end Text-to-SQL Generation with Schema-aware Denoising
+[[paper](https://arxiv.org/pdf/2105.07911v2.pdf)]
+
+- (2021-EMNLP, CCF-B) **PICARD**:Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+[[paper](https://arxiv.org/pdf/2109.05093v1.pdf)]
+[[code](https://github.com/ServiceNow/picard)]
+
+- (2021-ICLR, CCF-A) **GraPPa**: Grammar-Augmented Pre-Training for Table Semantic Parsing
+[[paper](https://arxiv.org/pdf/2009.13845v2.pdf)]
+[[code](https://github.com/taoyds/grappa)]
+
+- (2021-ACL, CCF-A) **LGESQL**: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
+[[paper](https://arxiv.org/pdf/2106.01093.pdf)]
+[[code](https://github.com/rhythmcao/text2sql-lgesql)]
+
+- (2020-EMNLP, CCF-B) Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
+[[paper](https://arxiv.org/pdf/2012.12627v2.pdf)]
+[[code](https://github.com/salesforce/TabularSemanticParsing)]
+
+- (2020-ACL, CCF-A) **TaBERT**: Pretraining for Joint Understanding of Textual and Tabular Data
+[[paper](https://arxiv.org/pdf/2005.08314v1.pdf)]
+[[code](https://github.com/facebookresearch/tabert)]
+
+- (2020-ACL, CCF-A) **RAT-SQL**: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
+[[paper](https://arxiv.org/pdf/1911.04942v5.pdf)]
+[[code](https://github.com/Microsoft/rat-sql)]
+
+- (2020-EMNLP, CCF-B) Mention Extraction and Linking for SQL Query Generation
+[[paper](https://arxiv.org/pdf/2012.10074v1.pdf)]
+
+- (2020-arXiv, None) Hybrid Ranking Network for Text-to-SQL
+[[paper](https://arxiv.org/pdf/2008.04759.pdf)]
+[[code](https://github.com/lyuqin/HydraNet-WikiSQL)]
+
+- (2019-arXiv, None) **X-SQL**: reinforce schema representation with context
+[[paper](https://arxiv.org/pdf/1908.08113.pdf)]
+
+- (2019-EMNLP, CCF-B) Global Reasoning over Database Structures for Text-to-SQL Parsing
+[[paper](https://arxiv.org/pdf/1908.11214v1.pdf)]
+[[code](https://github.com/benbogin/spider-schema-gnn-global)]
+
+- (2019-ACL, CCF-A) Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing
+[[paper](https://arxiv.org/pdf/1905.06241v2.pdf)]
+[[code](https://github.com/benbogin/spider-schema-gnn)]
+
+- (2019-ACL, CCF-A) Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation
+[[paper](https://arxiv.org/pdf/1905.08205v2.pdf)]
+[[code](https://github.com/microsoft/IRNet)]
+
+- (2018-EMNLP, CCF-B) **SyntaxSQLNet**: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL Task
+[[paper](https://arxiv.org/pdf/1810.05237v2.pdf)]
+[[code](https://github.com/taoyds/syntaxsql)]
+
+- (2018-NAACL, CCF-B) **TypeSQL**: Knowledge-based Type-Aware Neural Text-to-SQL Generation
+[[paper](https://arxiv.org/pdf/1804.09769.pdf)]
+[[code](https://github.com/taoyds/typesql)]
+
+- (2017-arXiv, None) **SQLNet**: Generating Structured Queries From Natural Language Without Reinforcement Learning
+[[paper](https://arxiv.org/pdf/1711.04436.pdf)]
+[[code](https://github.com/xiaojunxu/SQLNet)]
+
 
 ## 🔥 Base Model
 - Llama [[paper](https://arxiv.org/pdf/2302.13971.pdf)] [[code](https://github.com/facebookresearch/llama)] [[model](https://huggingface.co/meta-llama)]
