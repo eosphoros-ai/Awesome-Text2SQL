@@ -18,6 +18,7 @@
 ## 📜 目录
 - [👋 简介](#-简介)
 - [📖 综述](#-综述)
+- [💬 经典模型](#-经典模型)
 - [🔥 基础模型](#-基础模型)
 - [💡 微调](#-微调)
 - [💪 数据集](#-数据集)
@@ -37,6 +38,140 @@
 - (2022-IEEE Transactions on Knowledge and Data Engineering, TKDE, CCF-A) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
 - (2022-International Conference on Computational Linguistics, COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
+
+
+
+## 💬 经典模型
+
+- (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
+[[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
+[[code](https://github.com/beachwang/dail-sql)]
+
+- (2023-arXiv, None) Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
+[[paper](https://arxiv.org/pdf/2305.03111.pdf)]
+[[code](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird)]
+
+- (2023-arXiv, None) **DIN-SQL**: Decomposed In-Context Learning of Text-to-SQL with Self-Correction
+[[paper](https://arxiv.org/pdf/2304.11015v2.pdf)]
+[[code](https://github.com/mohammadrezapourreza/few-shot-nl2sql-with-prompting)]
+
+- (2023-arXiv, None) A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability
+[[paper](https://arxiv.org/pdf/2303.13547v1.pdf)]
+[[code](https://github.com/THU-BPM/chatgpt-sql)]
+
+- (2023-ICLR, CCF-A) Binding Language Models in Symbolic Languages
+[[paper](https://arxiv.org/pdf/2210.02875v2.pdf)]
+[[code](https://github.com/hkunlp/binder)]
+
+- (2023-ICASSP, CCF-B) **T5-SR**: A Unified Seq-to-Seq Decoding Strategy for Semantic Parsing
+[[paper](https://arxiv.org/pdf/2306.08368v1.pdf)]
+
+- (2022-ACL, CCF-A) **S<sup>2</sup>SQL**: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
+[[paper](https://aclanthology.org/2022.findings-acl.99.pdf)]
+
+- (2022-NAACL, CCF-B) **SeaD**: End-to-end Text-to-SQL Generation with Schema-aware Denoising
+[[paper](https://arxiv.org/pdf/2105.07911v2.pdf)]
+
+
+- (2022-EMNLP, CCF-B) **STAR**: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing
+[[paper](https://arxiv.org/pdf/2210.11888v2.pdf)]
+[[code](https://github.com/alibabaresearch/damo-convai)]
+
+- (2022-EMNLP, CCF-B) **RASAT**: Integrating Relational Structures into Pretrained Seq2Seq Model
+for Text-to-SQL
+[[paper](https://arxiv.org/pdf/2205.06983v2.pdf)]
+[[code](https://github.com/LUMIA-group/rasat)]
+
+- (2022-EMNLP, CCF-B) **CQR-SQL**: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers
+[[paper](https://arxiv.org/pdf/2205.07686.pdf)]
+
+- (2022-ACL, CCF-A) **HIE-SQL**: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing
+[[paper](https://arxiv.org/pdf/2203.07376v2.pdf)]
+
+- (2022-arXiv, None) Importance of Synthesizing High-quality Data for Text-to-SQL Parsing
+[[paper](https://arxiv.org/pdf/2212.08785v1.pdf)]
+
+- (2021-ACL, CCF-A) Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL
+[[paper](https://arxiv.org/pdf/2106.02282v2.pdf)]
+
+- (2021-arXiv, None) Pay More Attention to History: A Context Modelling Strategy for Conversational Text-to-SQL
+[[paper](https://arxiv.org/pdf/2112.08735v2.pdf)]
+[[code](https://github.com/JuruoMP/RAT-SQL-TC)]
+
+- (2021-ICLR, CCF-A) **SCORE**: Pre-training for Context Representation in Conversational Semantic Parsing
+[[paper](https://openreview.net/pdf?id=oyZxhRI2RiE)]
+
+- (2021-DASFAA, CCF-B) An Interactive NL2SQL Approach with Reuse Strategy
+[[paper](https://link.springer.com/chapter/10.1007/978-3-030-73197-7_19)]
+
+- (2021-NAACL, CCF-B) Structure-Grounded Pretraining for Text-to-SQL
+[[paper](https://arxiv.org/pdf/2010.12773v3.pdf)]
+
+- (2021-EMNLP, CCF-B) **PICARD**:Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
+[[paper](https://arxiv.org/pdf/2109.05093v1.pdf)]
+[[code](https://github.com/ServiceNow/picard)]
+
+- (2021-ICLR, CCF-A) **GraPPa**: Grammar-Augmented Pre-Training for Table Semantic Parsing
+[[paper](https://arxiv.org/pdf/2009.13845v2.pdf)]
+[[code](https://github.com/taoyds/grappa)]
+
+- (2021-ACL, CCF-A) **LGESQL**: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
+[[paper](https://arxiv.org/pdf/2106.01093.pdf)]
+[[code](https://github.com/rhythmcao/text2sql-lgesql)]
+
+- (2020-EMNLP, CCF-B) Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
+[[paper](https://arxiv.org/pdf/2012.12627v2.pdf)]
+[[code](https://github.com/salesforce/TabularSemanticParsing)]
+
+- (2020-ACL, CCF-A) **TaBERT**: Pretraining for Joint Understanding of Textual and Tabular Data
+[[paper](https://arxiv.org/pdf/2005.08314v1.pdf)]
+[[code](https://github.com/facebookresearch/tabert)]
+
+- (2020-ACL, CCF-A) **RAT-SQL**: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
+[[paper](https://arxiv.org/pdf/1911.04942v5.pdf)]
+[[code](https://github.com/Microsoft/rat-sql)]
+
+- (2020-EMNLP, CCF-B) Mention Extraction and Linking for SQL Query Generation
+[[paper](https://arxiv.org/pdf/2012.10074v1.pdf)]
+
+- (2020-EMNLP, CCF-B) **IGSQL**: Database Schema Interaction Graph Based Neural Model for Context-Dependent Text-to-SQL Generation
+[[paper](https://arxiv.org/pdf/2011.05744v1.pdf)]
+[[code](https://github.com/headacheboy/IGSQL)]
+
+- (2020-arXiv, None) Hybrid Ranking Network for Text-to-SQL
+[[paper](https://arxiv.org/pdf/2008.04759.pdf)]
+[[code](https://github.com/lyuqin/HydraNet-WikiSQL)]
+
+- (2019-arXiv, None) **X-SQL**: reinforce schema representation with context
+[[paper](https://arxiv.org/pdf/1908.08113.pdf)]
+
+- (2019-EMNLP, CCF-B) Global Reasoning over Database Structures for Text-to-SQL Parsing
+[[paper](https://arxiv.org/pdf/1908.11214v1.pdf)]
+[[code](https://github.com/benbogin/spider-schema-gnn-global)]
+
+- (2019-EMNLP, CCF-B) Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions
+[[paper](https://arxiv.org/pdf/1909.00786v2.pdf)]
+[[code](https://github.com/ryanzhumich/editsql)]
+
+- (2019-ACL, CCF-A) Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing
+[[paper](https://arxiv.org/pdf/1905.06241v2.pdf)]
+[[code](https://github.com/benbogin/spider-schema-gnn)]
+
+- (2019-ACL, CCF-A) Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation
+[[paper](https://arxiv.org/pdf/1905.08205v2.pdf)]
+[[code](https://github.com/microsoft/IRNet)]
+
+- (2018-EMNLP, CCF-B) **SyntaxSQLNet**: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL Task
+[[paper](https://arxiv.org/pdf/1810.05237v2.pdf)]
+[[code](https://github.com/taoyds/syntaxsql)]
+
+- (2018-NAACL, CCF-B) **TypeSQL**: Knowledge-based Type-Aware Neural Text-to-SQL Generation
+[[paper](https://arxiv.org/pdf/1804.09769.pdf)]
+[[code](https://github.com/taoyds/typesql)]
+
+- (2017-arXiv, None) **SQLNet**: Generating Structured Queries From Natural Language Without Reinforcement Learning
+[[paper](https://arxiv.org/pdf/1711.04436.pdf)]
+[[code](https://github.com/xiaojunxu/SQLNet)]
 
 
 ## 🔥 基础模型
