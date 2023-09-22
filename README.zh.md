@@ -16,15 +16,18 @@
 我们热烈欢迎大家的贡献，无论您是发现拼写错误、错误、有建议，还是想要分享与LLM+Text2SQL相关的资源。有关如何贡献的详细指南，请参阅我们的 [CONTRIBUTING.md](CONTRIBUTING.md) 文件。
 
 ## 📜 目录
-- [👋 简介](#-简介)
-- [📖 综述](#-综述)
-- [💬 经典模型](#-经典模型)
-- [🔥 基础模型](#-基础模型)
-- [💡 微调](#-微调)
-- [💪 数据集](#-数据集)
-- [🌈 评测指标](#-评测指标)
-- [🔧 实践项目](#-实践项目)
-- [🤝 友情链接](#-友情链接)
+- [**Awesome Text2SQL**🎉🎉🎉](#awesome-text2sql)
+  - [🌱 如何贡献](#-如何贡献)
+  - [📜 目录](#-目录)
+  - [👋 简介](#-简介)
+  - [📖 综述](#-综述)
+  - [💬 经典模型](#-经典模型)
+  - [🔥 基础模型](#-基础模型)
+  - [💡 微调](#-微调)
+  - [💪 数据集](#-数据集)
+  - [🌈 评测指标](#-评测指标)
+  - [🔧 实践项目](#-实践项目)
+  - [🤝 友情链接](#-友情链接)
 
 
 ## 👋 简介
@@ -46,6 +49,10 @@
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
+
+- (2023-AAAI 2023, CCF-A) RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+[[paper](https://arxiv.org/abs/2302.05965)]
+[[code](https://github.com/RUCKBReasoning/RESDSQL)]
 
 - (2023-arXiv, None) Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
 [[paper](https://arxiv.org/pdf/2305.03111.pdf)]

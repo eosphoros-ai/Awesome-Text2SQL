@@ -14,15 +14,18 @@ Curated tutorials and resources for Large Language Models, Text2SQL, and more.
 We warmly welcome contributions from everyone, whether you've found a typo, a bug, have a suggestion, or want to share a resource related to LLM+Text2SQL. For detailed guidelines on how to contribute, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## 📜 Contents
-- [👋 Introduction](#-introduction)
-- [📖 Survey](#-survey)
-- [💬 Classic Model](#-classic-model)
-- [🔥 Base Model](#-base-model)
-- [💡 Fine-tuning](#-fine-tuning)
-- [💪 Dataset](#-dataset)
-- [🌈 Evaluation Index](#-evaluation-index)
-- [🔧 Practice Project](#-practice-project)
-- [🤝 Friendship Links](#-friendship-links)
+- [**Awesome Text2SQL**🎉🎉🎉](#awesome-text2sql)
+  - [🌱 How to Contribute](#-how-to-contribute)
+  - [📜 Contents](#-contents)
+  - [👋 Introduction](#-introduction)
+  - [📖 Survey](#-survey)
+  - [💬 Classic Model](#-classic-model)
+  - [🔥 Base Model](#-base-model)
+  - [💡 Fine-tuning](#-fine-tuning)
+  - [💪 Dataset](#-dataset)
+  - [🌈 Evaluation Index](#-evaluation-index)
+  - [🔧 Practice Project](#-practice-project)
+  - [🤝 Friendship Links](#-friendship-links)
 
 ## 👋 Introduction
 - Text-to-SQL (or Text2SQL), as the name implies, is to convert text into SQL. A more academic definition is to convert natural language problems in the database field into structured query languages ​​that can be executed in relational databases. Therefore, Text-to-SQL can also be abbreviated as NL2SQL.
@@ -40,6 +43,10 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
+
+- (2023-AAAI 2023, CCF-A) RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+[[paper](https://arxiv.org/abs/2302.05965)]
+[[code](https://github.com/RUCKBReasoning/RESDSQL)]
 
 - (2023-arXiv, None) Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
 [[paper](https://arxiv.org/pdf/2305.03111.pdf)]
