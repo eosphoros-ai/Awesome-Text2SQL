@@ -64,6 +64,10 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2210.02875v2.pdf)]
 [[code](https://github.com/hkunlp/binder)]
 
+- (2023-SIGMOD, CCF-A) Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+[[paper](https://dl.acm.org/doi/abs/10.1145/3589292)]
+[[code](https://github.com/ruc-datalab/SC-prompt)]
+
 - (2023-ICASSP, CCF-B) **T5-SR**: A Unified Seq-to-Seq Decoding Strategy for Semantic Parsing
 [[paper](https://arxiv.org/pdf/2306.08368v1.pdf)]
 
