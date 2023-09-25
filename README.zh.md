@@ -207,12 +207,30 @@ for Text-to-SQL
 - ChatGLM2[[paper](https://arxiv.org/pdf/2210.02414.pdf)] [[code](https://github.com/THUDM/ChatGLM2-6B/blob/main/README_EN.md)] [[model](https://huggingface.co/THUDM/chatglm2-6b)]
   - 2023年6月，清华大学提出了ChatGLM的第二代版本ChatGLM 2，规范为6b，具有更强的性能、更长的上下文、更高效的推理和更开放的许可。
 
+- Baichuan-7b [[code](https://github.com/baichuan-inc/baichuan-7B)] [[model](https://huggingface.co/baichuan-inc/Baichuan-7B)]
+  - 2023年6月，百川智能提出Baichuan-7B，这是一个基于Transformer架构的开源大规模预训练语言模型，包含70亿个参数，训练了约​​1.2万亿个tokens。支持中文和英文，上下文窗口长度为4096。
+  
+- Baichuan-13b [[code](https://github.com/baichuan-inc/Baichuan-13B)] [[model](https://huggingface.co/baichuan-inc/Baichuan-13B-Base)]
+  - 2023年7月，百川智能继Baichuan-7B之后，提出开源、可商用的大规模语言模型Baichuan-13B，有预训练版本（Baichuan-13B-Base）和对齐版本（Baichuan-13B-Chat）。
+
+- InternLM [[paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf)] [[code](https://github.com/InternLM/InternLM/)] [[model](https://huggingface.co/internlm)]
+  - 2023年7月，上海人工智能实验室和商汤科技等提出了InternLM，开源了针对实际场景量身定制的7b和20b参数模型和聊天模型以及训练系统。
+
 - Llama 2 [[paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)] [[code](https://github.com/facebookresearch/llama)] [[model](https://huggingface.co/meta-llama)]
   - 2023年7月，Meta AI提出第二代Llama系列开源大模型Llama 2，和Llama 1相比，训练数据多40%，上下文长度翻倍，模型有7b、13b、34b、70b共4种规格，但是34b没有开源。
 
 - Code LLama [[paper](https://arxiv.org/pdf/2308.12950.pdf)] [[code](https://github.com/facebookresearch/codellama)] [[model](https://huggingface.co/codellama)]
   - 2023年8月，Meta AI 在 Llama 2 的基础上提出 Code LLama。Code Llama 在多个代码基准测试中达到了开放模型中最先进的性能。有基础模型 (Code Llama)、Python 专业化 (Code Llama - Python) 和指令跟踪模型（instruction-following models），每个模型都有 7B、13B 和 34B 参数。
 
+
+- Qwen-7B [[paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)] [[code](https://github.com/QwenLM/Qwen-7B)] [[model](https://modelscope.cn/models/ccyh123/Qwen-7B-Chat/summary)]
+  - 2023年8月，阿里云提出大语言模型系列Qwen-7B（简称通义千问），在海量数据上进行预训练，包括网页文本、书籍、代码等，开源了两个版本Qwen-7B和Qwen-7B-Chat。 
+
+- Baichuan 2 [[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
+  - 2023年9月，百川智能提出新一代开源大语言模型Baichuan 2，在2.6万亿个tokens的高质量语料上训练，有7B和13B的基础版和聊天版，以及4bits量化版聊天模型。
+
+- Phi-1.5 [[paper](https://arxiv.org/pdf/2309.05463.pdf)] [[model](https://huggingface.co/microsoft/phi-1_5)]
+  - 2023年9月，微软研究院提出开源语言模型phi-1.5，一个拥有1.3b个参数的Transformer，使用与[phi-1](https://huggingface.co/microsoft/phi-1)相同的数据源进行训练，增加了由各种NLP合成文本组成的新数据源。当根据测试常识、语言理解和逻辑推理的基准进行评估时，phi-1.5在参数少于10b的模型中表现出近乎最先进的性能。
 
  ## 💡 微调
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
