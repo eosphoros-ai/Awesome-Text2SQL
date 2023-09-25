@@ -223,7 +223,7 @@ for Text-to-SQL
   - 2023年8月，Meta AI 在 Llama 2 的基础上提出 Code LLama。Code Llama 在多个代码基准测试中达到了开放模型中最先进的性能。有基础模型 (Code Llama)、Python 专业化 (Code Llama - Python) 和指令跟踪模型（instruction-following models），每个模型都有 7B、13B 和 34B 参数。
 
 
-- Qwen [[paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)] [[code](https://github.com/QwenLM/Qwen)] [[model](https://huggingface.co/Qwen)]
+- Qwen [[paper](https://qianwen-res.oss-cn-beijing.aliyuncs.com/QWEN_TECHNICAL_REPORT.pdf)] [[code](https://github.com/QwenLM/Qwen)] [[model](https://huggingface.co/Qwen)]
   - 2023年8月，阿里云提出大语言模型系列Qwen-7B（简称通义千问），在海量数据上进行预训练，包括网页文本、书籍、代码等，开源了两个版本Qwen-7B和Qwen-7B-Chat。 2023年9月，阿里云更新了Qwen-7B和Qwen-7B-Chat，并开源了Qwen-14B和Qwen-14B-Chat。
 
 - Baichuan 2 [[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
