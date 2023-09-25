@@ -197,6 +197,7 @@ for Text-to-SQL
 
 - Falcon [[paper](https://arxiv.org/pdf/2306.01116.pdf)] [[code](https://huggingface.co/tiiuae/falcon-180B)] [[model](https://huggingface.co/tiiuae)]
   - 2023/06, United Arab Emirates proposes Falcon, an open source LLM trained solely on refinedweb datasets, with four parameter specifications of 1b, 7b, 40b and 180b. It is worth noting that the performance on model 40B exceeds that of 65B LLaMA. 
+  
 - ChatGLM2[[paper](https://arxiv.org/pdf/2210.02414.pdf)] [[code](https://github.com/THUDM/ChatGLM2-6B/blob/main/README_EN.md)] [[model](https://huggingface.co/THUDM/chatglm2-6b)]
   - 2023/06, Tsinghua University proposes the second-generation version of ChatGLM，with the specification of 7b, which has stronger performance, longer context, more efficient inference and more open license.
 
@@ -215,8 +216,8 @@ for Text-to-SQL
 - Code LLama [[paper](https://arxiv.org/pdf/2308.12950.pdf)] [[code](https://github.com/facebookresearch/codellama)] [[model](https://huggingface.co/codellama)]
   - 2023/08, Meta AI proposes Code LLama, based on Llama 2. Code Llama reaches state-of-the-art performance among open models on several code benchmarks. There are foundation models (Code Llama), Python specializations (Code Llama - Python), and instruction-following models,  with 7B, 13B and 34B parameters each.
 
-- Qwen-7B [[paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)] [[code](https://github.com/QwenLM/Qwen-7B)] [[model](https://modelscope.cn/models/ccyh123/Qwen-7B-Chat/summary)]
-  - 2023/08, Alibaba Cloud proposes the 7b-parameter version of the large language model series Qwen-7B (abbr. Tongyi Qianwen), is pretrained on a large volume of data, including web texts, books, codes, etc,which has open sourced two models with Qwen-7B and Qwen-7B-Chat. 
+- Qwen [[paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)] [[code](https://github.com/QwenLM/Qwen)] [[model](https://huggingface.co/Qwen)]
+  - 2023/08, Alibaba Cloud proposes the 7b-parameter version of the large language model series Qwen-7B (abbr. Tongyi Qianwen), is pretrained on a large volume of data, including web texts, books, codes, etc, which has open sourced two models with Qwen-7B and Qwen-7B-Chat. 2023/09, Alibaba Cloud updated the Qwen-7B and Qwen-7B-Chat and open sourced Qwen-14B and Qwen-14B-Chat.
 
 - Baichuan 2 [[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
   - 2023/09, Baichuan Intelligent Technology proposes the new generation of open-source large language models Baichuan 2, trained on a high-quality corpus with 2.6 trillion tokens, which has base and chat versions for 7B and 13B, and a 4bits quantized version for the chat model.
