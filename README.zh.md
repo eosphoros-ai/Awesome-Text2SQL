@@ -245,8 +245,17 @@ for Text-to-SQL
 - RLHF [[paper](https://huggingface.co/blog/rlhf)] [[code](https://github.com/huggingface/blog/blob/main/zh/rlhf.md)] 
   - 2022年12月，OpenAI使用RLHF方法训练ChatGPT，利用人类反馈信号直接优化语言模型，表现优异。
 
+- RRHF [[paper](https://arxiv.org/pdf/2304.05302.pdf)] [[code](https://github.com/GanjinZero/RRHF)] 
+  - 2023年4月，阿里巴巴提出了一种新的学习范式称为RRHF（Rank Responses to Align Language Models with Human Feedback without tears），可以像微调一样轻松调整并实现PPO算法在HH数据集中的性能。
+
 - QLoRA [[paper](https://arxiv.org/pdf/2305.14314.pdf)] [[code](https://github.com/artidoro/qlora)] 
   - 2023年5月，华盛顿大学基于冻结的4bit量化模型，结合LoRA方法训练，进一步降低了微调门槛。
+
+- RLTF [[paper](https://arxiv.org/pdf/2307.04349.pdf)] [[code](https://github.com/Zyq-scut/RLTF)] 
+  - 2023年7月，腾讯提出了RLTF（Reinforcement Learning from Unit Test Feedback），这是一种新颖的online强化学习框架，具有多粒度的单元测试反馈，用于细化code LLMs。
+
+- RRTF [[paper](https://arxiv.org/pdf/2307.14936v1.pdf)]
+  - 2023年7月，华为提出RRTF（Rank Responses toalign Test&Teacher Feedback）。与 RLHF 相比，RRHF可以有效地将语言模型的输出概率与人类偏好对齐，调优期间只需要1-2个模型，并且在实现、超参数调优和训练方面比PPO更简单。
 
 
 ## 💪 数据集
