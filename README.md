@@ -44,7 +44,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
 
-- (2023-AAAI 2023, CCF-A) RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+- (2023-AAAI 2023, CCF-A) **RESDSQL**: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
 [[paper](https://arxiv.org/abs/2302.05965)]
 [[code](https://github.com/RUCKBReasoning/RESDSQL)]
 
@@ -71,7 +71,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2023-ICASSP, CCF-B) **T5-SR**: A Unified Seq-to-Seq Decoding Strategy for Semantic Parsing
 [[paper](https://arxiv.org/pdf/2306.08368v1.pdf)]
 
-- (2022-ACL, CCF-A) **S^2SQL**: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
+- (2022-ACL, CCF-A) **S<sup>2</sup>SQL**: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
 [[paper](https://aclanthology.org/2022.findings-acl.99.pdf)]
 
 - (2022-NAACL, CCF-B) **SeaD**: End-to-end Text-to-SQL Generation with Schema-aware Denoising
@@ -237,10 +237,22 @@ for Text-to-SQL
   - 2021/10, Tsinghua University proposes P-Tuning V2, an improved version of P-Tuning with better performance.
 
 - RLHF [[paper](https://huggingface.co/blog/rlhf)] [[code](https://github.com/huggingface/blog/blob/main/zh/rlhf.md)] 
-  - 2022/12, OpenAI uses the RLHF method to train ChatGPT, and uses human feedback signals to directly optimize the language model, with excellent performance.
+  - 2022/12, OpenAI uses the RLHF (Reinforcement Learning from Human Feedback) method to train ChatGPT, and uses human feedback signals to directly optimize the language model, with excellent performance.
+
+- RRHF [[paper](https://arxiv.org/pdf/2304.05302.pdf)] [[code](https://github.com/GanjinZero/RRHF)] 
+  - 2023/04, Alibaba proposes a novel learning paradigm called RRHF（Rank Responses to Align Language Models
+with Human Feedback without tears), which can be tuned as easily as fine-tuning and achieve a similar
+performance as PPO in HH dataset.
 
 - QLoRA [[paper](https://arxiv.org/pdf/2305.14314.pdf)] [[code](https://github.com/artidoro/qlora)] 
   - 2023/05, Washington University proposes the qlora method, based on the frozen 4bit quantization model, combined with LoRA method training, which further reduces the cost of fine-tuning.
+
+- RLTF [[paper](https://arxiv.org/pdf/2307.04349.pdf)] [[code](https://github.com/Zyq-scut/RLTF)] 
+  - 2023/07, Tencent proposes RLTF（Reinforcement Learning from Unit Test Feedback), a novel online RL framework with unit test feedback of multi-granularity for refining code LLMs.
+
+- RRTF [[paper](https://arxiv.org/pdf/2307.14936v1.pdf)]
+  - 2023/07, Huawei proposes RRTF（Rank Responses to align Test&Teacher Feedback). Compared
+with RLHF, RRHF can efficiently align the output probabilities of a language model with human preferences, with only 1-2 models required during the tuning period, and it is simpler than PPO in terms of implementation, hyperparameter tuning, and training.
 
 
 ## 💪 Dataset
