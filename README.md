@@ -271,6 +271,11 @@ performance as PPO in HH dataset.
 - CoSQL [[paper](https://arxiv.org/pdf/1909.05378.pdf)] [[code](https://yale-lily.github.io/cosql)] [[dataset](https://yale-lily.github.io/cosql)]
   - 2019/09, Yale University and Salesforce Research propose a cross-domain database CoSQL, which consists of 30k+ turns plus 10k+ annotated SQL queries, obtained from a Wizard-of-Oz (WOZ) collection of 3k dialogues querying 200 complex DBs spanning 138 domains.
   
+- TableQA [[paper](https://arxiv.org/pdf/2006.06434.pdf)] [[dataset](https://www.luge.ai/#/luge/dataDetail?id=12)]
+  - 2020/06, Zhuiyi Technology proposes a large-scale cross-domain Natural Language to SQL dataset TableQA in Chinese language consisting 64,891 questions and 20,311 unique SQL queries on over 6,000 tables.
+  
+- DuSQL [[paper](https://aclanthology.org/2020.emnlp-main.562.pdf)] [[dataset](https://www.luge.ai/#/luge/dataDetail?id=13)]
+  - 2020/11, Baidu proposes a larges-scale and pragmatic Chinese dataset DuSQL for the cross-domain text-toSQL task, containing 200 databases, 813 tables, and 23,797 question/SQL pairs. 
 
 - CHASE [[paper](https://aclanthology.org/2021.acl-long.180.pdf)] [[code](https://github.com/xjtu-intsoft/chase)] [[dataset](https://github.com/xjtu-intsoft/chase/tree/page/data)]
   - 2021/08, Xi'an Jiaotong University and Microsoft propose the first cross-domain, multi-round Text-to-SQL Chinese dataset, which contains a list of 5459 multi-round questions and 17940 <query, SQL> binary groups.
