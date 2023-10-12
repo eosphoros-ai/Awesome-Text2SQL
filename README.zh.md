@@ -272,8 +272,13 @@ for Text-to-SQL
   - 2019年9月，西湖大学提出了一个大型中文数据集CSpider，用于复杂和跨领域的语义解析和Text-to-SQL任务，由2位NLP研究人员和1位计算机专业学生从数据集Spider翻译而来，其中包含200个数据库上的10181个问题和5693个独特的复杂SQL查询，具有涵盖138个不同领域的多个表的数据库。
 
 - CoSQL [[paper](https://arxiv.org/pdf/1909.05378.pdf)] [[code](https://yale-lily.github.io/cosql)] [[dataset](https://yale-lily.github.io/cosql)]
-  - 2019/09, 耶鲁大学和Salesforce Research提出了一种跨域数据库CoSQL，它由30k+轮次和10k+带注释的SQL查询组成，这些查询是从Wizard-of-Oz (WOZ)集合中获得的，该集合包含3k个对话，查询跨越 138个域的200个复杂数据库。
-  
+  - 2019年9月，耶鲁大学和Salesforce Research提出了一种跨域数据库CoSQL，它由30k+轮次和10k+带注释的SQL查询组成，这些查询是从Wizard-of-Oz (WOZ)集合中获得的，该集合包含3k个对话，查询跨越 138个域的200个复杂数据库。
+
+- TableQA [[paper](https://arxiv.org/pdf/2006.06434.pdf)] [[dataset](https://www.luge.ai/#/luge/dataDetail?id=12)]
+  - 2020年6月，追一科技公司提出了一个大规模跨领域Text-to-SQL数据集TableQA，其中包含64891个问题和6000多个表的20311个唯一SQL查询。
+
+- DuSQL [[paper](https://aclanthology.org/2020.emnlp-main.562.pdf)] [[dataset](https://www.luge.ai/#/luge/dataDetail?id=13)]
+  - 2020年11月，百度针对跨域文本到SQL任务提出了一个大规模、实用的中文数据集DuSQL，它包含200个数据库、813个表和23797个Question-SQL对。
 
 - CHASE [[paper](https://aclanthology.org/2021.acl-long.180.pdf)] [[code](https://github.com/xjtu-intsoft/chase)] [[dataset](https://github.com/xjtu-intsoft/chase/tree/page/data)]
   - 2021年8月，西安交通大学和微软等提出了首个跨领域、多轮Text-to-SQL中文数据集，包含了5459个多轮问题组成的列表，17940个<query, SQL>二元组。
