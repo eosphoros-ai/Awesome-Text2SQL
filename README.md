@@ -254,6 +254,9 @@ performance as PPO in HH dataset.
 - RRTF [[paper](https://arxiv.org/pdf/2307.14936v1.pdf)]
   - 2023/07, Huawei proposes RRTF（Rank Responses to align Test&Teacher Feedback). Compared with RLHF, RRHF can efficiently align the output probabilities of a language model with human preferences, with only 1-2 models required during the tuning period, and it is simpler than PPO in terms of implementation, hyperparameter tuning, and training.
 
+- RLAIF [[paper](https://arxiv.org/pdf/2309.00267.pdf)]
+  - 2023/09, Google proposes RLAIF (RL from AI Feedback), a technique where preferences are labeled by an off-the-shelf LLM in lieu of humans. They find that the RLHF and RLAIF methods achieve the similar results on the task of summarization.
+
 
 ## 💪 Dataset
 - WikiSQL [[paper](https://arxiv.org/pdf/1709.00103.pdf)] [[code](https://github.com/salesforce/WikiSQL)] [[dataset](https://github.com/salesforce/WikiSQL)]
