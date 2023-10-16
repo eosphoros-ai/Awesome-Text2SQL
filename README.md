@@ -13,6 +13,13 @@ Curated tutorials and resources for Large Language Models, Text2SQL, and more.
 ## 🌱 How to Contribute
 We warmly welcome contributions from everyone, whether you've found a typo, a bug, have a suggestion, or want to share a resource related to LLM+Text2SQL. For detailed guidelines on how to contribute, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
+## 🔔 Leaderboard
+|                |          [WikiSQL](https://github.com/salesforce/WikiSQL#leaderboard)          |          [Spider](https://yale-lily.github.io/spider)<br/>Exact Match(EM)           |                [Spider](https://yale-lily.github.io/spider)<br/>Exact Execution(EX)                 | [BIRD](https://bird-bench.github.io/)<br/>Valid Efficiency Score (VES) |      [BIRD](https://bird-bench.github.io/)<br/>Execution Accuracy (EX)      |
+|:--------------:|:------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
+|      🏆1       |      **93.0** <br/>(2021/05-[SeaD](https://arxiv.org/pdf/2105.07911.pdf))      | **74.0** <br/>(2022/09-[Graphix-3B + PICARD](https://arxiv.org/pdf/2301.07507.pdf)) | **86.6** <br/>(2023/08-[DAIL-SQL + GPT-4 + Self-Consistency](https://arxiv.org/pdf/2308.15363.pdf)) |                 **64.22** <br/>(2023/10-SFT CodeS-15B)                 |                   **60.37** <br/>(2023/10-SFT CodeS-15B)                    |
+|      🥈2       |       92.7 <br/>(2021/03-[SDSQL](https://arxiv.org/pdf/2103.04399.pdf))        |                         73.9 <br/>(2022/09-CatSQL + GraPPa)                         |            86.2 <br/>(2023/08-[DAIL-SQL + GPT-4](https://arxiv.org/pdf/2308.15363.pdf))             |                   63.62 <br/>(2023/10-SFT CodeS-7B)                    |                      59.25 <br/>(2023/10-SFT CodeS-7B)                      |
+|      🥉3       | 92.5 <br/>(2020/11-[IE-SQL](https://aclanthology.org/2020.emnlp-main.563.pdf)) |      73.1 <br/>(2022/09-[SHiP + PICARD](https://arxiv.org/pdf/2212.08785.pdf))      |             85.3 <br/>(2023/04-[DIN-SQL + GPT-4](https://arxiv.org/pdf/2304.11015.pdf))             |                       60.77 <br/>(2023/07-GPT-4)                       | 55.90 <br/>(2023/08-[DIN-SQL + GPT-4](https://arxiv.org/pdf/2304.11015.pdf)) |
+
 ## 📜 Contents
 - [**Awesome Text2SQL**🎉🎉🎉](#awesome-text2sql)
   - [🌱 How to Contribute](#-how-to-contribute)
