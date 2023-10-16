@@ -29,6 +29,12 @@
   - [🔧 实践项目](#-实践项目)
   - [🤝 友情链接](#-友情链接)
 
+## 🔔 排行榜
+|                |          [WikiSQL](https://github.com/salesforce/WikiSQL#leaderboard)          |          [Spider](https://yale-lily.github.io/spider)<br/>Exact Match(EM)           |                [Spider](https://yale-lily.github.io/spider)<br/>Exact Execution(EX)                 | [BIRD](https://bird-bench.github.io/)<br/>Valid Efficiency Score (VES) |      [BIRD](https://bird-bench.github.io/)<br/>Execution Accuracy (EX)      |
+|:--------------:|:------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
+|      🏆1       |      **93.0** <br/>(2021/05-[SeaD](https://arxiv.org/pdf/2105.07911.pdf))      | **74.0** <br/>(2022/09-[Graphix-3B + PICARD](https://arxiv.org/pdf/2301.07507.pdf)) | **86.6** <br/>(2023/08-[DAIL-SQL + GPT-4 + Self-Consistency](https://arxiv.org/pdf/2308.15363.pdf)) |                 **64.22** <br/>(2023/10-SFT CodeS-15B)                 |                   **60.37** <br/>(2023/10-SFT CodeS-15B)                    |
+|      🥈2       |       92.7 <br/>(2021/03-[SDSQL](https://arxiv.org/pdf/2103.04399.pdf))        |                         73.9 <br/>(2022/09-CatSQL + GraPPa)                         |            86.2 <br/>(2023/08-[DAIL-SQL + GPT-4](https://arxiv.org/pdf/2308.15363.pdf))             |                   63.62 <br/>(2023/10-SFT CodeS-7B)                    |                      59.25 <br/>(2023/10-SFT CodeS-7B)                      |
+|      🥉3       | 92.5 <br/>(2020/11-[IE-SQL](https://aclanthology.org/2020.emnlp-main.563.pdf)) |      73.1 <br/>(2022/09-[SHiP + PICARD](https://arxiv.org/pdf/2212.08785.pdf))      |             85.3 <br/>(2023/04-[DIN-SQL + GPT-4](https://arxiv.org/pdf/2304.11015.pdf))             |                       60.77 <br/>(2023/07-GPT-4)                       | 55.90 <br/>(2023/08-[DIN-SQL + GPT-4](https://arxiv.org/pdf/2304.11015.pdf)) 
 
 ## 👋 简介
 - Text-to-SQL（或者Text2SQL），顾名思义就是把文本转化为SQL语言，更学术一点的定义是：把数据库领域下的自然语言（Natural Language，NL）问题，转化为在关系型数据库中可以执行的结构化询语言（Structured Query Language，SQL），因此Text-to-SQL也可以被简写为NL2SQL。
@@ -257,6 +263,8 @@ for Text-to-SQL
 - RRTF [[paper](https://arxiv.org/pdf/2307.14936v1.pdf)]
   - 2023年7月，华为提出RRTF（Rank Responses toalign Test&Teacher Feedback）。与 RLHF 相比，RRHF可以有效地将语言模型的输出概率与人类偏好对齐，调优期间只需要1-2个模型，并且在实现、超参数调优和训练方面比PPO更简单。
 
+- RLAIF [[paper](https://arxiv.org/pdf/2309.00267.pdf)]
+  - 2023年9月，谷歌提出了RLAIF（来自AI反馈的强化学习RL），这是一种由现成的LLM代替人类来标记偏好的技术。他们发现RLHF和 RLAIF方法在摘要任务上取得了相似的结果。
 
 ## 💪 数据集
 - WikiSQL [[paper](https://arxiv.org/pdf/1709.00103.pdf)] [[code](https://github.com/salesforce/WikiSQL)] [[dataset](https://github.com/salesforce/WikiSQL)]
