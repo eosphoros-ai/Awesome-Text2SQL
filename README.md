@@ -53,44 +53,73 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
-
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
 
 - (2023-AAAI 2023, CCF-A) **RESDSQL**: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
-[[paper](https://arxiv.org/abs/2302.05965)]
+[[paper](https://arxiv.org/pdf/2302.05965.pdf)]
 [[code](https://github.com/RUCKBReasoning/RESDSQL)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/Spider--DK-blue)](https://arxiv.org/pdf/2109.05157.pdf)
+[![](https://img.shields.io/badge/Spider--Syn-red)](https://arxiv.org/pdf/2106.01065.pdf)
 
 - (2023-arXiv, None) Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
 [[paper](https://arxiv.org/pdf/2305.03111.pdf)]
 [[code](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird)]
+[![](https://img.shields.io/badge/BIRD-green)](https://bird-bench.github.io/)
 
 - (2023-arXiv, None) **DIN-SQL**: Decomposed In-Context Learning of Text-to-SQL with Self-Correction
 [[paper](https://arxiv.org/pdf/2304.11015v2.pdf)]
 [[code](https://github.com/mohammadrezapourreza/few-shot-nl2sql-with-prompting)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/WikiSQL-yellow)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2023-arXiv, None) A comprehensive evaluation of ChatGPT's zero-shot Text-to-SQL capability
 [[paper](https://arxiv.org/pdf/2303.13547v1.pdf)]
 [[code](https://github.com/THU-BPM/chatgpt-sql)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/Spider--DK-blue)](https://arxiv.org/pdf/2109.05157.pdf)
+[![](https://img.shields.io/badge/Spider--Syn-red)](https://arxiv.org/pdf/2106.01065.pdf)
+[![](https://img.shields.io/badge/Spider--CG-organge)](https://arxiv.org/pdf/2205.02054.pdf)
+[![](https://img.shields.io/badge/ADVETA-purple)](https://aclanthology.org/2022.acl-long.142.pdf)
+[![](https://img.shields.io/badge/CSpider-cyan)](https://taolusi.github.io/CSpider-explorer/)
+[![](https://img.shields.io/badge/DuSQL-lightgreen)](https://aclanthology.org/2020.emnlp-main.562.pdf)
+[![](https://img.shields.io/badge/SParC-pink)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-gray)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2023-ICLR, CCF-A) Binding Language Models in Symbolic Languages
 [[paper](https://arxiv.org/pdf/2210.02875v2.pdf)]
 [[code](https://github.com/hkunlp/binder)]
+[![](https://img.shields.io/badge/WIKITQ-green)](https://arxiv.org/pdf/1508.00305.pdf)
+[![](https://img.shields.io/badge/TabFact-yellow)](https://arxiv.org/pdf/1909.02164.pdf)
+[![](https://img.shields.io/badge/SOUALL-blue)](https://arxiv.org/pdf/2010.11246.pdf)
 
 - (2023-SIGMOD, CCF-A) Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
-[[paper](https://dl.acm.org/doi/abs/10.1145/3589292)]
+[[paper](http://iir.ruc.edu.cn/~fanj/papers/sigmod2023-scprompt.pdf)]
 [[code](https://github.com/ruc-datalab/SC-prompt)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
+[![](https://img.shields.io/badge/GenQuery-blue)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1c9df99cce1903d34c53025e86e72331bbfbe08f)
+
 
 - (2023-ICASSP, CCF-B) **T5-SR**: A Unified Seq-to-Seq Decoding Strategy for Semantic Parsing
 [[paper](https://arxiv.org/pdf/2306.08368v1.pdf)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Syn-yellow)](https://arxiv.org/pdf/2106.01065.pdf)
 
 - (2022-ACL, CCF-A) **S<sup>2</sup>SQL**: Injecting Syntax to Question-Schema Interaction Graph Encoder for Text-to-SQL Parsers
 [[paper](https://aclanthology.org/2022.findings-acl.99.pdf)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Syn-yellow)](https://arxiv.org/pdf/2106.01065.pdf)
 
 - (2022-NAACL, CCF-B) **SeaD**: End-to-end Text-to-SQL Generation with Schema-aware Denoising
 [[paper](https://arxiv.org/pdf/2105.07911v2.pdf)]
-
+[![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2022-EMNLP, CCF-B) **STAR**: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing
 [[paper](https://arxiv.org/pdf/2210.11888v2.pdf)]
