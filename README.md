@@ -124,36 +124,57 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2022-EMNLP, CCF-B) **STAR**: SQL Guided Pre-Training for Context-dependent Text-to-SQL Parsing
 [[paper](https://arxiv.org/pdf/2210.11888v2.pdf)]
 [[code](https://github.com/alibabaresearch/damo-convai)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2022-EMNLP, CCF-B) **RASAT**: Integrating Relational Structures into Pretrained Seq2Seq Model
 for Text-to-SQL
 [[paper](https://arxiv.org/pdf/2205.06983v2.pdf)]
 [[code](https://github.com/LUMIA-group/rasat)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/SParC-yellow)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-blue)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2022-EMNLP, CCF-B) **CQR-SQL**: Conversational Question Reformulation Enhanced Context-Dependent Text-to-SQL Parsers
 [[paper](https://arxiv.org/pdf/2205.07686.pdf)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2022-ACL, CCF-A) **HIE-SQL**: History Information Enhanced Network for Context-Dependent Text-to-SQL Semantic Parsing
 [[paper](https://arxiv.org/pdf/2203.07376v2.pdf)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2022-arXiv, None) Importance of Synthesizing High-quality Data for Text-to-SQL Parsing
 [[paper](https://arxiv.org/pdf/2212.08785v1.pdf)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 
 - (2021-ACL, CCF-A) Decoupled Dialogue Modeling and Semantic Parsing for Multi-Turn Text-to-SQL
 [[paper](https://arxiv.org/pdf/2106.02282v2.pdf)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2021-arXiv, None) Pay More Attention to History: A Context Modelling Strategy for Conversational Text-to-SQL
 [[paper](https://arxiv.org/pdf/2112.08735v2.pdf)]
 [[code](https://github.com/JuruoMP/RAT-SQL-TC)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
 
 - (2021-ICLR, CCF-A) **SCORE**: Pre-training for Context Representation in Conversational Semantic Parsing
 [[paper](https://openreview.net/pdf?id=oyZxhRI2RiE)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
+[![](https://img.shields.io/badge/MWoZ-blue)](https://github.com/budzianowski/multiwoz)
+[![](https://img.shields.io/badge/SQA-red)](https://www.microsoft.com/en-us/download/details.aspx?id=54253)
 
 - (2021-DASFAA, CCF-B) An Interactive NL2SQL Approach with Reuse Strategy
 [[paper](https://link.springer.com/chapter/10.1007/978-3-030-73197-7_19)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
 
 - (2021-NAACL, CCF-B) Structure-Grounded Pretraining for Text-to-SQL
 [[paper](https://arxiv.org/pdf/2010.12773v3.pdf)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/WikiSQL-blue)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2021-EMNLP, CCF-B) **PICARD**:Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
 [[paper](https://arxiv.org/pdf/2109.05093v1.pdf)]
