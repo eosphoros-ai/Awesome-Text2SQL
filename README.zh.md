@@ -191,33 +191,47 @@ for Text-to-SQL
 - (2021-EMNLP, CCF-B) **PICARD**:Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models
 [[paper](https://arxiv.org/pdf/2109.05093v1.pdf)]
 [[code](https://github.com/ServiceNow/picard)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2021-ICLR, CCF-A) **GraPPa**: Grammar-Augmented Pre-Training for Table Semantic Parsing
 [[paper](https://arxiv.org/pdf/2009.13845v2.pdf)]
 [[code](https://github.com/taoyds/grappa)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/WikiSQL-yellow)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2021-ACL, CCF-A) **LGESQL**: Line Graph Enhanced Text-to-SQL Model with Mixed Local and Non-Local Relations
 [[paper](https://arxiv.org/pdf/2106.01093.pdf)]
 [[code](https://github.com/rhythmcao/text2sql-lgesql)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 
 - (2020-EMNLP, CCF-B) Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing
 [[paper](https://arxiv.org/pdf/2012.12627v2.pdf)]
 [[code](https://github.com/salesforce/TabularSemanticParsing)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/WikiSQL-yellow)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2020-ACL, CCF-A) **TaBERT**: Pretraining for Joint Understanding of Textual and Tabular Data
 [[paper](https://arxiv.org/pdf/2005.08314v1.pdf)]
 [[code](https://github.com/facebookresearch/tabert)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/WikiTableQuestions-yellow)](https://github.com/ppasupat/WikiTableQuestions)
 
 - (2020-ACL, CCF-A) **RAT-SQL**: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers
 [[paper](https://arxiv.org/pdf/1911.04942v5.pdf)]
 [[code](https://github.com/Microsoft/rat-sql)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/WikiSQL-yellow)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2020-EMNLP, CCF-B) Mention Extraction and Linking for SQL Query Generation
 [[paper](https://arxiv.org/pdf/2012.10074v1.pdf)]
+[![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2020-EMNLP, CCF-B) **IGSQL**: Database Schema Interaction Graph Based Neural Model for Context-Dependent Text-to-SQL Generation
 [[paper](https://arxiv.org/pdf/2011.05744v1.pdf)]
 [[code](https://github.com/headacheboy/IGSQL)]
+[![](https://img.shields.io/badge/SParC-green)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 
 - (2020-arXiv, None) Hybrid Ranking Network for Text-to-SQL
 [[paper](https://arxiv.org/pdf/2008.04759.pdf)]
