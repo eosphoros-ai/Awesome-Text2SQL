@@ -47,7 +47,6 @@
   - [🤝 友情链接](#-友情链接)
 
 
-
 ## 👋 简介
 - Text-to-SQL（或者Text2SQL），顾名思义就是把文本转化为SQL语言，更学术一点的定义是：把数据库领域下的自然语言（Natural Language，NL）问题，转化为在关系型数据库中可以执行的结构化询语言（Structured Query Language，SQL），因此Text-to-SQL也可以被简写为NL2SQL。
   - 输入：自然语言问题，比如“*查询表t_user的相关信息，结果按id降序排序，只保留前10个数据*”
