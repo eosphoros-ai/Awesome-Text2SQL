@@ -17,7 +17,6 @@
 
 ## 🔔 排行榜
 
-
 |      |                              [WikiSQL](https://github.com/salesforce/WikiSQL#leaderboard)                               |                [Spider](https://yale-lily.github.io/spider)<br/>Exact Match(EM)                 |              [Spider](https://yale-lily.github.io/spider)<br/>Exact Execution(EX)               |    [BIRD](https://bird-bench.github.io/)<br/>Valid Efficiency Score (VES)     |       [BIRD](https://bird-bench.github.io/)<br/>Execution Accuracy (EX)        |
 |:----:|:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|
 | 🏆1  |             **93.0** <br/>(2021/05-[SeaD+Execution-Guided Decoding](https://arxiv.org/pdf/2105.07911.pdf))              |                                **81.5** <br/>(2023/11-MiniSeek)                                 |                                **91.2** <br/>(2023/11-MiniSeek)                                 |                   **67.68** <br/>(2023/11-MAC-SQL + GPT-4)                    | **60.71** <br/>(2023/11-[Dubo-SQL-v1](https://dubo.gg/posts/bird-benchmarks/)) |
@@ -30,6 +29,7 @@
 |  8   |                           91.1 <br/>(2020/12-[BRIDGE](https://arxiv.org/pdf/2012.12627.pdf))                            |   72.2 <br/>(2022/12-[N-best List Rerankers + PICARD](https://arxiv.org/pdf/2210.10668.pdf))    |           80.8 <br/>(2023/07-Hindsight Chain of Thought with GPT-4 and Instructions)            |  56.56 <br/>(2023/03-[ChatGPT + CoT](https://arxiv.org/pdf/2305.03111.pdf))   |                         49.02 <br/>(2023/07-Claude-2)                          |
 |  9   | 91.0 <br/>(2021/04-[Text2SQLGen + EG](https://www.semanticscholar.org/reader/b877233410484b2ff2add278105c53b6633d9d20)) |          72.1 <br/>(2021/09-[S²SQL + ELECTRA ](https://arxiv.org/pdf/2203.06958.pdf))           |         79.9 <br/>(2023/02-[RESDSQL-3B + NatSQ](https://arxiv.org/pdf/2302.05965.pdf))          |                         51.40 <br/>(2023/03-ChatGPT)                          |                         47.74 <br/>(2023/11-Open-SQL)                          |
 |  10  |                        90.5 <br/>(2020/11-[SeqGenSQL+EG](https://arxiv.org/pdf/2011.03836.pdf))                         |         72.0 <br/>(2023/02-[RESDSQL-3B + NatSQL](https://arxiv.org/pdf/2302.05965.pdf))         |                                 78.5 <br/>(2022/11-SeaD + PQL)                                  |  49.69 <br/>(2023/03-[ChatGPT + CoT](https://arxiv.org/pdf/2305.03111.pdf))   |   40.08 <br/>(2023/03-[ChatGPT + CoT](https://arxiv.org/pdf/2305.03111.pdf))   |
+
 
 
 ## 📜 目录
