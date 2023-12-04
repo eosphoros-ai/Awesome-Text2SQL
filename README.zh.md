@@ -10,7 +10,7 @@
 
 [**English**](README.md) | **中文版**
 
-这里收集了针对大型语言模型、Text2SQL 等的精选教程和资源。
+这里收集了针对大型语言模型、Text2SQL、[Text2DSL](Text2DSL.md)、 [Text2API](Text2API.md)、 [Text2Vis](Text2Vis.md) 等的精选教程和资源。
 
 ## 🌱 如何贡献
 我们热烈欢迎大家的贡献，无论您是发现拼写错误、错误、有建议，还是想要分享与LLM+Text2SQL相关的资源。有关如何贡献的详细指南，请参阅我们的 [CONTRIBUTING.md](CONTRIBUTING.md) 文件。
