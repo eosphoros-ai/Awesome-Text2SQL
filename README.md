@@ -56,6 +56,15 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
+
+- (2023-arXiv, None) **DBCᴏᴘɪʟᴏᴛ**: Scaling Natural Language Querying to Massive Databases
+[[paper](https://arxiv.org/pdf/2312.03463.pdf)]
+[[code](https://github.com/tshu-w/DBCopilot)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
+[![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
+
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
@@ -108,7 +117,6 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/CoSQL-yellow)](https://arxiv.org/pdf/1909.05378.pdf)
 [![](https://img.shields.io/badge/GenQuery-blue)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1c9df99cce1903d34c53025e86e72331bbfbe08f)
-
 
 - (2023-ICASSP, CCF-B) **T5-SR**: A Unified Seq-to-Seq Decoding Strategy for Semantic Parsing
 [[paper](https://arxiv.org/pdf/2306.08368v1.pdf)]
@@ -269,6 +277,7 @@ for Text-to-SQL
 [[paper](https://arxiv.org/pdf/1711.04436.pdf)]
 [[code](https://github.com/xiaojunxu/SQLNet)]
 [![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
+
 
 ## 🔥 Base Model
 - Llama [[paper](https://arxiv.org/pdf/2302.13971.pdf)] [[code](https://github.com/facebookresearch/llama)] [[model](https://huggingface.co/meta-llama)]

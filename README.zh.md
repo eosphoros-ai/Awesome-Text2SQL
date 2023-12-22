@@ -63,6 +63,14 @@
 
 ## 💬 经典模型
 
+- (2023-arXiv, None) **DBCᴏᴘɪʟᴏᴛ**: Scaling Natural Language Querying to Massive Databases
+[[paper](https://arxiv.org/pdf/2312.03463.pdf)]
+[[code](https://github.com/tshu-w/DBCopilot)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
+[![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
+
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
@@ -281,7 +289,6 @@ for Text-to-SQL
 [[paper](https://arxiv.org/pdf/1711.04436.pdf)]
 [[code](https://github.com/xiaojunxu/SQLNet)]
 [![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
-
 
 
 ## 🔥 基础模型
