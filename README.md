@@ -56,6 +56,10 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
+- (2023-arXiv, None) **Data-Copilot**: Bridging Billions of Data and Humans with Autonomous Workflow
+[[paper](https://arxiv.org/abs/2306.07209)]
+[[code](https://github.com/zwq2018/Data-Copilot)]
+**Text2API**
 
 - (2023-arXiv, None) **DBCᴏᴘɪʟᴏᴛ**: Scaling Natural Language Querying to Massive Databases
 [[paper](https://arxiv.org/pdf/2312.03463.pdf)]
