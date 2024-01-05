@@ -63,6 +63,14 @@
 
 ## 💬 经典模型
 
+- (2023-arXiv, None) **DBCᴏᴘɪʟᴏᴛ**: Scaling Natural Language Querying to Massive Databases
+[[paper](https://arxiv.org/pdf/2312.03463.pdf)]
+[[code](https://github.com/tshu-w/DBCopilot)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
+[![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
+
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
 [[code](https://github.com/beachwang/dail-sql)]
@@ -240,14 +248,17 @@ for Text-to-SQL
 [[paper](https://arxiv.org/pdf/2008.04759.pdf)]
 [[code](https://github.com/lyuqin/HydraNet-WikiSQL)]
 [![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
+[![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2019-arXiv, None) **X-SQL**: reinforce schema representation with context
 [[paper](https://arxiv.org/pdf/1908.08113.pdf)]
+[![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 [![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2019-EMNLP, CCF-B) Global Reasoning over Database Structures for Text-to-SQL Parsing
 [[paper](https://arxiv.org/pdf/1908.11214v1.pdf)]
 [[code](https://github.com/benbogin/spider-schema-gnn-global)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 
 - (2019-EMNLP, CCF-B) Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions
@@ -256,25 +267,32 @@ for Text-to-SQL
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/SParC-yellow)](https://arxiv.org/pdf/1906.02285.pdf)
 [![](https://img.shields.io/badge/ATIS-blue)](https://aclanthology.org/H90-1021.pdf)
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/SParC-yellow)](https://arxiv.org/pdf/1906.02285.pdf)
+[![](https://img.shields.io/badge/ATIS-blue)](https://aclanthology.org/H90-1021.pdf)
 
 - (2019-ACL, CCF-A) Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing
 [[paper](https://arxiv.org/pdf/1905.06241v2.pdf)]
 [[code](https://github.com/benbogin/spider-schema-gnn)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 
 - (2019-ACL, CCF-A) Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation
 [[paper](https://arxiv.org/pdf/1905.08205v2.pdf)]
 [[code](https://github.com/microsoft/IRNet)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 
 - (2018-EMNLP, CCF-B) **SyntaxSQLNet**: Syntax Tree Networks for Complex and Cross-DomainText-to-SQL Task
 [[paper](https://arxiv.org/pdf/1810.05237v2.pdf)]
 [[code](https://github.com/taoyds/syntaxsql)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 
 - (2018-NAACL, CCF-B) **TypeSQL**: Knowledge-based Type-Aware Neural Text-to-SQL Generation
 [[paper](https://arxiv.org/pdf/1804.09769.pdf)]
 [[code](https://github.com/taoyds/typesql)]
+[![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 [![](https://img.shields.io/badge/WikiSQL-green)](https://github.com/salesforce/WikiSQL/blob/master/README.md)
 
 - (2017-arXiv, None) **SQLNet**: Generating Structured Queries From Natural Language Without Reinforcement Learning
