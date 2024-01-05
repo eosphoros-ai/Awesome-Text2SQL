@@ -19,3 +19,9 @@
 [[paper](https://arxiv.org/pdf/2312.17449.pdf)]
 [[code](https://github.com/eosphoros-ai/DB-GPT)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT?style=social)](https://github.com/eosphoros-ai/DB-GPT)
+
+- (2023-arXiv, None) Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
+[[paper](https://arxiv.org/abs/2306.07209)]
+[[code](https://github.com/zwq2018/Data-Copilot)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/zwq2018/Data-Copilot?style=social)](https://github.com/zwq2018/Data-Copilot)
+
