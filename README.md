@@ -326,12 +326,22 @@ for Text-to-SQL
 - Qwen [[paper](https://qianwen-res.oss-cn-beijing.aliyuncs.com/QWEN_TECHNICAL_REPORT.pdf)] [[code](https://github.com/QwenLM/Qwen)] [[model](https://huggingface.co/Qwen)]
   - 2023/08, Alibaba Cloud proposes the 7b-parameter version of the large language model series Qwen-7B (abbr. Tongyi Qianwen), is pretrained on a large volume of data, including web texts, books, codes, etc, which has open sourced two models with Qwen-7B and Qwen-7B-Chat. 2023/09, Alibaba Cloud updated the Qwen-7B and Qwen-7B-Chat and open sourced Qwen-14B and Qwen-14B-Chat.
 
-- Baichuan 2 [[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
+- Baichuan 2 [[paper](https://arxiv.org/pdf/2309.10305.pdf)]
+[[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
   - 2023/09, Baichuan Intelligent Technology proposes the new generation of open-source large language models Baichuan 2, trained on a high-quality corpus with 2.6 trillion tokens, which has base and chat versions for 7B and 13B, and a 4bits quantized version for the chat model.
 
 - Phi-1.5 [[paper](https://arxiv.org/pdf/2309.05463.pdf)] [[model](https://huggingface.co/microsoft/phi-1_5)]
-  - 2023/09, Microsoft Research proposes the open source language model phi-1.5, a Transformer with 1.3 billion parameters, which was trained using the same data sources as [phi-1](https://huggingface.co/microsoft/phi-1), augmented with a new data source that consists of various NLP synthetic texts. When assessed against benchmarks testing common sense, language understanding, and logical reasoning, phi-1.5 demonstrates a nearly state-of-the-art performance among models with less than 10 billion parameters.
- 
+  - 2023/09, Microsoft Research proposes the open source language model phi-1.5, a Transformer with 1.3 billion parameters, which was trained using the same data sources as [phi-1](https://huggingface.co/microsoft/phi-1), augmented with a new data source that consists of various NLP synthetic texts. When assessed against benchmarks testing common sense, language understanding, and logical reasoning, phi-1.5 demonstrates a nearly state-of-the-art performance among models with less than 10 billion parameters. 2023/12, They propose [Phi-2](https://huggingface.co/microsoft/phi-2), a 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. 
+
+ - Mistral-7B [[paper](https://arxiv.org/pdf/2310.06825.pdf)]
+  [[code](https://github.com/mistralai/mistral-src)] 
+  [[model](https://huggingface.co/mistralai/Mistral-7B-v0.1)]
+   - 2023/10, Mistral-AI company proposes the open source LLM Mistral 7B, a 7–billion-parameter language model engineered for superior performance and efficiency. Mistral 7B outperforms the best open 13B model (Llama 2) across all evaluated benchmarks, and the best released 34B model (Llama 1) in reasoning, mathematics, and code generation. They also provide a model fine-tuned to follow instructions, Mistral 7B – Instruct, that surpasses Llama 2 13B–chat model both on human and automated benchmarks. 2023/12，They propose the open source LLM Mixtral-8x7B, a pretrained generative Sparse Mixture of Experts, which outperforms Llama 2 70B on most benchmarks.
+
+ - Deepseek [[paper](https://arxiv.org/pdf/2401.02954.pdf)]
+  [[code](https://github.com/deepseek-ai/DeepSeek-LLM)] 
+  [[model](https://huggingface.co/deepseek-ai)]
+   - 2023/11, DeepSeek-AI company proposes the open source LLM deepseek, which has been trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese. Similarly, the deepseek LLM mainly has two categories: base and chat, with two parameter formats of 7b and 67b respectively. Data from its paper shows that deepSeek LLM 67b surpasses LLaMA-2 70b across a range of benchmarks, especially in the domains of code, mathematics, and reasoning. Furthermore, DeepSeek LLM 67B Chat exhibits superior performance compared to GPT-3.5.
 
  ## 💡 Fine-tuning
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 

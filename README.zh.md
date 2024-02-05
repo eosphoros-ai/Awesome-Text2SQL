@@ -338,11 +338,22 @@ for Text-to-SQL
 - Qwen [[paper](https://qianwen-res.oss-cn-beijing.aliyuncs.com/QWEN_TECHNICAL_REPORT.pdf)] [[code](https://github.com/QwenLM/Qwen)] [[model](https://huggingface.co/Qwen)]
   - 2023年8月，阿里云提出大语言模型系列Qwen-7B（简称通义千问），在海量数据上进行预训练，包括网页文本、书籍、代码等，开源了两个版本Qwen-7B和Qwen-7B-Chat。 2023年9月，阿里云更新了Qwen-7B和Qwen-7B-Chat，并开源了Qwen-14B和Qwen-14B-Chat。
 
-- Baichuan 2 [[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
+- Baichuan 2  [[paper](https://arxiv.org/pdf/2309.10305.pdf)]
+[[code](https://github.com/baichuan-inc/Baichuan2)] [[model](https://huggingface.co/baichuan-inc)]
   - 2023年9月，百川智能提出新一代开源大语言模型Baichuan 2，在2.6万亿个tokens的高质量语料上训练，有7B和13B的基础版和聊天版，以及4bits量化版聊天模型。
 
 - Phi-1.5 [[paper](https://arxiv.org/pdf/2309.05463.pdf)] [[model](https://huggingface.co/microsoft/phi-1_5)]
-  - 2023年9月，微软研究院提出开源语言模型phi-1.5，一个拥有1.3b个参数的Transformer，使用与[phi-1](https://huggingface.co/microsoft/phi-1)相同的数据源进行训练，增加了由各种NLP合成文本组成的新数据源。当根据测试常识、语言理解和逻辑推理的基准进行评估时，phi-1.5在参数少于10b的模型中表现出近乎最先进的性能。
+  - 2023年9月，微软研究院提出开源语言模型phi-1.5，一个拥有1.3b个参数的Transformer，使用与[phi-1](https://huggingface.co/microsoft/phi-1)相同的数据源进行训练，增加了由各种NLP合成文本组成的新数据源。当根据测试常识、语言理解和逻辑推理的基准进行评估时，phi-1.5在参数少于10b的模型中表现出近乎最先进的性能。2023年12月，他们提出了[Phi-2](https://huggingface.co/microsoft/phi-2)，一个 2.7b参数的语言模型，展示了出色的推理和语言理解能力，展示了参数少于13b的基础语言模型中最先进的性能。
+
+ - Mistral-7B [[paper](https://arxiv.org/pdf/2310.06825.pdf)] 
+   [[code](https://github.com/mistralai/mistral-src)] 
+   [[model](https://huggingface.co/mistralai/Mistral-7B-v0.1)]
+   - 2023年10月，Mistral-AI 公司提出开源 LLM Mistral 7B，这是一个具有7b参数的语言模型，旨在实现卓越的性能和效率。Mistral 7B 在所有评估基准中均优于开源的llama2 13B，在推理、数学和代码生成方面优于llama1-34B模型。他们还提供了一个经过微调以遵循指令的模型Mistral 7B–Instruct，该模型在人类和自动化基准测试上都超越了Llama2-13B-Chat。2023年12月，他们提出了开源LLM Mixtral-8x7B，一种预训练的生成式稀疏专家混合物，在大多数基准测试上优于Llama2 70B。 
+
+ - Deepseek [[paper](https://arxiv.org/pdf/2401.02954.pdf)] 
+   [[code](https://github.com/deepseek-ai/DeepSeek-LLM)] 
+   [[model](https://huggingface.co/deepseek-ai)]
+   - 2023年11月, DeepSeek-AI公司提出了开源LLM deepseek，它是在包含2万亿个中英文token的庞大数据集上从头开始训练的。同样，deepseek LLM主要有base和chat两大类，分别有7b和67b两种参数格式。论文中的数据显示，deepSeek LLM 67b 在一系列基准测试中都超越了LLaMA2 70b，特别是在代码、数学和推理领域。 此外，与GPT-3.5相比，DeepSeek LLM 67B Chat 表现出卓越的性能。
 
  ## 💡 微调
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
