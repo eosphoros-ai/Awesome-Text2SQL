@@ -401,6 +401,9 @@ performance as PPO in HH dataset.
 - DuSQL [[paper](https://aclanthology.org/2020.emnlp-main.562.pdf)] [[dataset](https://www.luge.ai/#/luge/dataDetail?id=13)]
   - 2020/11, Baidu proposes a larges-scale and pragmatic Chinese dataset DuSQL for the cross-domain text-toSQL task, containing 200 databases, 813 tables, and 23,797 question/SQL pairs. 
 
+- KaggleDBQA [[paper](https://arxiv.org/abs/2106.11455)] [[code](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/)] [[dataset](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/tree/main?tab=readme-ov-file#Data-Format)]
+  - 2021/06, University of Washington and Microsoft Research propose KaggleDBQA, a cross-domain evaluation dataset of real Web databases with domain-specific data types, original formatting, and unrestricted questions. It includes 272 examples across 8 databases, with an average of 2.25 tables per database. The dataset is notable for its real-world data sources, natural question authoring environments, and database documentation with rich domain knowledge. Key statistics: 8.7% WHERE clauses, 73.5% VAL, 24.6% SELECT, and 6.8% NON-SELECT.
+  
 - CHASE [[paper](https://aclanthology.org/2021.acl-long.180.pdf)] [[code](https://github.com/xjtu-intsoft/chase)] [[dataset](https://github.com/xjtu-intsoft/chase/tree/page/data)]
   - 2021/08, Xi'an Jiaotong University and Microsoft propose the first cross-domain, multi-round Text-to-SQL Chinese dataset, which contains a list of 5459 multi-round questions and 17940 <query, SQL> binary groups.
 
