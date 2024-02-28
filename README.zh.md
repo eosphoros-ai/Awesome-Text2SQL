@@ -416,6 +416,9 @@ for Text-to-SQL
 - BIRD-SQL [[paper](https://arxiv.org/pdf/2305.03111.pdf)] [[code](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird)] [[dataset](https://bird-bench.github.io/)]
   - 2023年5月，香港大学和阿里巴巴提出了一个大规模跨域数据集BIRD，其中包含超过12751个独特的问题 SQL、95个大数据库，总大小为33.4GB。它还涵盖区块链、曲棍球、医疗保健和教育等超过37个专业领域。
 
+- KaggleDBQA [[paper](https://arxiv.org/abs/2106.11455)] [[code](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/)] [[dataset](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/tree/main?tab=readme-ov-file#Data-Format)]
+  - 2021年6月，华盛顿大学和微软研究院提出了KaggleDBQA，这是一个真实Web数据库的跨域评估数据集，具有特定领域的数据类型、原始格式和不受限制的问题。 它包括跨 8 个数据库的 272 个示例，每个数据库平均有 2.25 个表。 该数据集以其真实世界的数据源、自然的问题创作环境以及具有丰富领域知识的数据库文档而闻名。 主要统计数据：8.7% WHERE 子句、73.5% VAL、24.6% SELECT 和 6.8% NON-SELECT。
+
 ## 🌈 评测指标
 - Execution Accuracy (EX) [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
   - 定义：计算SQL执行结果正确的数量在数据集中的比例，结果存在高估的可能。
