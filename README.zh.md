@@ -44,6 +44,7 @@
   - [💪 数据集](#-数据集)
   - [🌈 评测指标](#-评测指标)
   - [🔧 实践项目](#-实践项目)
+  - [📦 库函数](#-库函数)
   - [🤝 友情链接](#-友情链接)
 
 
@@ -426,6 +427,9 @@ for Text-to-SQL
 - Exact Match (EM) [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
   - 定义：计算模型生成的SQL和标注SQL的匹配程度，结果存在低估的可能。
 
+## 📦 库函数
+- [mindsql](https://pypi.org/project/mindsql/)
+  - MindSQL 是一个 Python RAG（检索增强生成）库，旨在仅使用几行代码来简化用户与其数据库之间的交互。 MindSQL 与 PostgreSQL、MySQL、SQLite 等知名数据库无缝集成，还通过扩展核心类，将其功能扩展到 Snowflake、BigQuery 等主流数据库。 该库利用 GPT-4、Llama 2、Google Gemini 等大型语言模型 (LLM)，并支持 ChromaDB 和 Fais 等知识库。
 
 ## 🔧 实践项目
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
