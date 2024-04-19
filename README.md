@@ -348,6 +348,11 @@ for Text-to-SQL
   [[model](https://huggingface.co/openbmb)]
    - 2024/02, ModelBest Inc. and TsinghuaNLP proposes the open source LLM MiniCPM, which is an End-Side LLM, with only 2.4B parameters excluding embeddings (2.7B in total). It is worth that MiniCPM has very close performance compared with Mistral-7B on open-sourced general benchmarks with better ability on Chinese, Mathematics and Coding after SFT. The overall performance exceeds Llama2-13B, MPT-30B, Falcon-40B, etc.
 
+
+  - Llama 3 [[paper](https://ai.meta.com/blog/meta-llama-3/)] [[code](https://github.com/meta-llama/llama3)] [[model](https://huggingface.co/meta-llama)]
+    - 2024/04, Meta AI proposed the third generation Llama series open source large model Llama 3. The model has 2 parameter specifications, 8b and 70b, with base and instruct versions respectively. Excitingly, Llama 3 models are a major leap over Llama 2 and establish a new state-of-the-art for LLM models at those scales.
+
+
  ## 💡 Fine-tuning
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
   - 2021/03, Tsinghua University and others propose P-Tuning, a fine-tuning method for LLM, which uses trainable continuous prompt word embeddings to reduce the cost of fine-tuning.

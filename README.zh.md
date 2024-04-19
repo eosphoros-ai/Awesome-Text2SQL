@@ -361,6 +361,9 @@ for Text-to-SQL
   [[model](https://huggingface.co/openbmb)]
    - 2024年2月, 面壁智能与清华大学自然语言处理实验室开源了大模型MiniCPM，这是一个系列端侧大模型，主体语言模型 MiniCPM-2B 仅有 24亿（2.4B）的非词嵌入参数量, 总计2.7B参数量。值得注意的是，经过 SFT 后，MiniCPM 在公开综合性评测集上，MiniCPM 与 Mistral-7B相近（中文、数学、代码能力更优），整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。
 
+  - Llama 3 [[paper](https://ai.meta.com/blog/meta-llama-3/)] [[code](https://github.com/meta-llama/llama3)] [[model](https://huggingface.co/meta-llama)]
+    - 2024年4月，Meta AI提出第三代Llama系列开源大模型Llama 3，模型有8b、70b共2种参数规格, 每种规则都有base和instruct版本。令人兴奋的是，Llama 3 模型是 Llama 2 的重大飞跃，并为这些参数规模的 LLM 模型建立了新的最先进水平。
+
  ## 💡 微调
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
   - 2021年3月，清华大学等提出了针对大模型微调方法P-Tuning，采用可训练的连续提示词嵌入，降低了微调成本。
