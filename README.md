@@ -32,6 +32,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 ## 📜 Contents
 - [**Awesome Text2SQL**🎉🎉🎉](#awesome-text2sql)
   - [🌱 How to Contribute](#-how-to-contribute)
+  - [🔔 Leaderboard](#-leaderboard)
   - [📜 Contents](#-contents)
   - [👋 Introduction](#-introduction)
   - [📖 Survey](#-survey)
@@ -348,9 +349,17 @@ for Text-to-SQL
   [[model](https://huggingface.co/openbmb)]
    - 2024/02, ModelBest Inc. and TsinghuaNLP proposes the open source LLM MiniCPM, which is an End-Side LLM, with only 2.4B parameters excluding embeddings (2.7B in total). It is worth that MiniCPM has very close performance compared with Mistral-7B on open-sourced general benchmarks with better ability on Chinese, Mathematics and Coding after SFT. The overall performance exceeds Llama2-13B, MPT-30B, Falcon-40B, etc.
 
+ - Mixtral-8x22B [[paper](https://mistral.ai/news/mixtral-8x22b/)] [[code](https://docs.mistral.ai/getting-started/open_weight_models/)] [[model](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1)]
+   - 2024/04, Mistral AI proposed the latest open model Mixtral 8x22B. It sets a new standard for performance and efficiency within the AI community. It is a sparse Mixture-of-Experts (SMoE) model that uses only 39B active parameters out of 141B, offering unparalleled cost efficiency for its size.
+
+ - phi-3 [[paper](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/)] [[model](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)]
+   - 2024/04, Microsoft proposed the Phi-3 models, which are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks. Phi-3-mini is available in two context-length variants—4K and 128K tokens. It is the first model in its class to support a context window of up to 128K tokens, with little impact on quality. Phi-3-small (7B) and Phi-3-medium (14B) will be available in the Azure AI model catalog and other model gardens shortly.   
 
   - Llama 3 [[paper](https://ai.meta.com/blog/meta-llama-3/)] [[code](https://github.com/meta-llama/llama3)] [[model](https://huggingface.co/meta-llama)]
     - 2024/04, Meta AI proposed the third generation Llama series open source large model Llama 3. The model has 2 parameter specifications, 8b and 70b, with base and instruct versions respectively. Excitingly, Llama 3 models are a major leap over Llama 2 and establish a new state-of-the-art for LLM models at those scales.
+
+  - Qwen-1.5-110B [[paper](https://qwenlm.github.io/blog/qwen1.5-110b/)] [[code](https://github.com/QwenLM/Qwen1.5)] [[model](https://huggingface.co/Qwen/Qwen1.5-110B)]
+    - 2024/04, Alibaba Cloud proposed the first 100B+ model of the Qwen1.5 series, Qwen1.5-110B, which achieves comparable performance with Meta-Llama3-70B in the base model evaluation, and outstanding performance in the chat evaluation, including MT-Bench and AlpacaEval 2.0. Qwen1.5 is the beta version of Qwen2, which has 9 model sizes, including 0.5B, 1.8B, 4B, 7B, 14B, 32B, 72B, and 110B dense models, and an MoE model of 14B with 2.7B activated.
 
 
  ## 💡 Fine-tuning
