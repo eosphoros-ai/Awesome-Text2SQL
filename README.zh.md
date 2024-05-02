@@ -366,7 +366,7 @@ for Text-to-SQL
    - 2024年4月, Mistral AI提出了最新的开源模型 Mixtral 8x22B。 它为人工智能社区的性能和效率设立了新标准。 它是一个稀疏专家混合 (SMoE) 模型，仅使用 141B 个活动参数中的 39B 个，在其规模下提供了无与伦比的成本效率。
 
 
- - phi-3 [[paper](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/)] [[model](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)]
+ - Phi-3 [[paper](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/)] [[model](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)]
    - 2024年4月, 微软提出了 Phi-3 模型，这是现有的功能最强大、最具成本效益的小语言模型 (SLM)，在各种语言、推理、编码和计算方面，其性能优于相同大小和更高大小的模型。 数学基准。 Phi-3-mini 有两种上下文长度变体 4K 和 128K 令牌。 它是同类产品中第一个支持最多 128K 个令牌的上下文窗口的模型，对质量影响很小。 Phi-3-small (7B) 和 Phi-3-medium (14B) 很快就会在 Azure AI 模型目录和其他模型花园中提供。
 
 
