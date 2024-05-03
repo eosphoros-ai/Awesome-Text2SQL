@@ -35,6 +35,7 @@
 ## 📜 目录
 - [**Awesome Text2SQL**🎉🎉🎉](#awesome-text2sql)
   - [🌱 如何贡献](#-如何贡献)
+  - [🔔 排行榜](#-排行榜)
   - [📜 目录](#-目录)
   - [👋 简介](#-简介)
   - [📖 综述](#-综述)
@@ -361,8 +362,19 @@ for Text-to-SQL
   [[model](https://huggingface.co/openbmb)]
    - 2024年2月, 面壁智能与清华大学自然语言处理实验室开源了大模型MiniCPM，这是一个系列端侧大模型，主体语言模型 MiniCPM-2B 仅有 24亿（2.4B）的非词嵌入参数量, 总计2.7B参数量。值得注意的是，经过 SFT 后，MiniCPM 在公开综合性评测集上，MiniCPM 与 Mistral-7B相近（中文、数学、代码能力更优），整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。
 
+ - Mixtral-8x22B [[paper](https://mistral.ai/news/mixtral-8x22b/)][[code](https://docs.mistral.ai/getting-started/open_weight_models/)] [[model](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1)]
+   - 2024年4月, Mistral AI提出了最新的开源模型 Mixtral 8x22B。 它为人工智能社区的性能和效率设立了新标准。 它是一个稀疏专家混合 (SMoE) 模型，仅使用 141B 个活动参数中的 39B 个，在其规模下提供了无与伦比的成本效率。
+
+
+ - Phi-3 [[paper](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/)] [[model](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)]
+   - 2024年4月, 微软提出了 Phi-3 模型，这是现有的功能最强大、最具成本效益的小语言模型 (SLM)，在各种语言、推理、编码和计算方面，其性能优于相同大小和更高大小的模型。 数学基准。 Phi-3-mini 有两种上下文长度变体 4K 和 128K 令牌。 它是同类产品中第一个支持最多 128K 个令牌的上下文窗口的模型，对质量影响很小。 Phi-3-small (7B) 和 Phi-3-medium (14B) 很快就会在 Azure AI 模型目录和其他模型花园中提供。
+
+
   - Llama 3 [[paper](https://ai.meta.com/blog/meta-llama-3/)] [[code](https://github.com/meta-llama/llama3)] [[model](https://huggingface.co/meta-llama)]
     - 2024年4月，Meta AI提出第三代Llama系列开源大模型Llama 3，模型有8b、70b共2种参数规格, 每种规则都有base和instruct版本。令人兴奋的是，Llama 3 模型是 Llama 2 的重大飞跃，并为这些参数规模的 LLM 模型建立了新的最先进水平。
+
+  - Qwen-1.5-110B [[paper](https://qwenlm.github.io/blog/qwen1.5-110b/)] [[code](https://github.com/QwenLM/Qwen1.5)] [[model](https://huggingface.co/Qwen/Qwen1.5-110B)]
+    - 2024年4月, 阿里云提出Qwen1.5系列首个100B+模型Qwen1.5-110B，该模型在基础模型评测中达到与Meta-Llama3-70B相当的性能，在包括MT-Bench和AlpacaEval 2.0在内的聊天评测中表现出色。Qwen1.5是Qwen2的测试版，有9种模型尺寸，包括0.5B、1.8B、4B、7B、14B、32B、72B和110B密集模型，以及14B激活2.7B的MoE模型。
 
  ## 💡 微调
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
