@@ -21,7 +21,7 @@
 |      |                              [WikiSQL](https://github.com/salesforce/WikiSQL#leaderboard)                               |                [Spider](https://yale-lily.github.io/spider)<br/>Exact Match(EM)                 |              [Spider](https://yale-lily.github.io/spider)<br/>Exact Execution(EX)               |       [BIRD](https://bird-bench.github.io/)<br/>Valid Efficiency Score (VES)       |         [BIRD](https://bird-bench.github.io/)<br/>Execution Accuracy (EX)          |
 |:----:|:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|
 | 🏆1  |             **93.0** <br/>(2021/05-[SeaD+Execution-Guided Decoding](https://arxiv.org/pdf/2105.07911.pdf))              |                                **81.5** <br/>(2023/11-MiniSeek)                                 |                                **91.2** <br/>(2023/11-MiniSeek)                                 |                      **80.40** <br/>(2024/05-[ExSL + granite-20b-code](https://arxiv.org/abs/2405.04324))                      |                      **67.86** <br/>(2024/05-[ExSL + granite-20b-code](https://arxiv.org/abs/2405.04324))                       |
-| 🥈2  |               92.7 <br/>(2021/03-[SDSQL+Execution-Guided Decoding](https://arxiv.org/pdf/2103.04399.pdf))               |         74.0 <br/>(2022/09-[Graphix-3B + PICARD](https://arxiv.org/pdf/2301.07507.pdf))         | 86.6 <br/>(2023/08-[DAIL-SQL + GPT-4 + Self-Consistency](https://arxiv.org/pdf/2308.15363.pdf)) |                            71.35 <br/>(2024/01-MCS-SQL + GPT-4)                            |                   65.45 <br/>(2024/01-MCS-SQL + GPT-4)                   |
+| 🥈2  |               92.7 <br/>(2021/03-[SDSQL+Execution-Guided Decoding](https://arxiv.org/pdf/2103.04399.pdf))               |         74.0 <br/>(2022/09-[Graphix-3B + PICARD](https://arxiv.org/pdf/2301.07507.pdf))         | 86.6 <br/>(2023/08-[DAIL-SQL + GPT-4 + Self-Consistency](https://arxiv.org/pdf/2308.15363.pdf)) |                            71.35 <br/>(2024/01-[MCS-SQL + GPT-4](https://arxiv.org/abs/2405.07467))                            |                   65.45 <br/>(2024/01-[MCS-SQL + GPT-4](https://arxiv.org/abs/2405.07467))                   |
 | 🥉3  |        92.5 <br/>(2020/11-[IE-SQL+Execution-Guided Decoding](https://aclanthology.org/2020.emnlp-main.563.pdf))         |                               73.9 <br/>(2022/09-CatSQL + GraPPa)                               |          86.2 <br/>(2023/08-[DAIL-SQL + GPT-4](https://arxiv.org/pdf/2308.15363.pdf))           |                            69.56 <br/>(2024/04-GRA-SQL）                             |                           64.95 <br/>(2024/04-OpenSearch-SQL,v1 + GPT-4)                            |
 |  4   |             92.2 <br/>(2020/03-[HydraNet+Execution-Guided Decoding](https://arxiv.org/pdf/2008.04759.pdf))              |            73.1 <br/>(2022/09-[SHiP + PICARD](https://arxiv.org/pdf/2212.08785.pdf))            |                      85.6 <br/>(2023/10-DPG-SQL + GPT-4 + Self-Correction)                      |                   68.90 <br/>(2024/02-PB-SQL）                   |                           64.84 <br/>(2024/02-PB-SQL v1)                           |
 |  5   |              91.9 <br/>(2020/12-[BRIDGE+Execution-Guided Decoding](https://arxiv.org/pdf/2012.12627.pdf))               | 72.9 <br/>(2022/05-[G³R + LGESQL + ELECTRA](https://aclanthology.org/2023.findings-acl.23.pdf)) |           85.3 <br/>(2023/04-[DIN-SQL + GPT-4](https://arxiv.org/pdf/2304.11015.pdf))           |    68.80 <br/>(2024/04-OpenSearch-SQL,v1 + GPT-4）    |                            63.39 <br/>(2024/02-SENSE 13B)                            |
@@ -358,8 +358,8 @@ for Text-to-SQL
    - 2023年11月, DeepSeek-AI公司提出了开源LLM deepseek，它是在包含2万亿个中英文token的庞大数据集上从头开始训练的。同样，deepseek LLM主要有base和chat两大类，分别有7b和67b两种参数格式。论文中的数据显示，deepSeek LLM 67b 在一系列基准测试中都超越了LLaMA2 70b，特别是在代码、数学和推理领域。 此外，与GPT-3.5相比，DeepSeek LLM 67B Chat 表现出卓越的性能。
 
  - MiniCPM [[paper](https://shengdinghu.notion.site/MiniCPM-c805a17c5c8046398914e47f0542095a)]
-  [[code](https://github.com/OpenBMB/MiniCPM)] 
-  [[model](https://huggingface.co/openbmb)]
+    [[code](https://github.com/OpenBMB/MiniCPM)] 
+    [[model](https://huggingface.co/openbmb)]
    - 2024年2月, 面壁智能与清华大学自然语言处理实验室开源了大模型MiniCPM，这是一个系列端侧大模型，主体语言模型 MiniCPM-2B 仅有 24亿（2.4B）的非词嵌入参数量, 总计2.7B参数量。值得注意的是，经过 SFT 后，MiniCPM 在公开综合性评测集上，MiniCPM 与 Mistral-7B相近（中文、数学、代码能力更优），整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。
 
  - Mixtral-8x22B [[paper](https://mistral.ai/news/mixtral-8x22b/)][[code](https://docs.mistral.ai/getting-started/open_weight_models/)] [[model](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1)]
@@ -463,8 +463,8 @@ for Text-to-SQL
   - 项目基于LLaMa 2 7b模型进行Text-to-SQL微调，有完整的训练、微调、评估流程。
 
 - [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning) 
-[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning?style=social)](https://github.com/hiyouga/LLaMA-Efficient-Tuning/stargazers)
-![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
+  [![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning?style=social)](https://github.com/hiyouga/LLaMA-Efficient-Tuning/stargazers)
+  ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
 
@@ -475,8 +475,8 @@ for Text-to-SQL
   - 他们是一支由来自互联网公司的技术爱好者和热衷于开源项目的NLP研究生组成的团队。他们的重点是开发保护数据库和大型语言模型的隐私和安全的解决方案。他们的目标是确保这些模型的能力保持绝对私密、安全和受控。
 
 - [Awesome-AIGC-Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
-[![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-AIGC-Tutorials?style=social)](https://github.com/luban-agi/Awesome-AIGC-Tutorials/stargazers)
-![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
+  [![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-AIGC-Tutorials?style=social)](https://github.com/luban-agi/Awesome-AIGC-Tutorials/stargazers)
+  ![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
   - Awesome AIGC Tutorials 包含一系列精选的教程和资源，涵盖大型语言模型、AI 绘画和相关领域。探索适合初学者和高级人工智能爱好者的深入见解和知识。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=eosphoros-ai/Awesome-Text2SQL&type=Date)](https://star-history.com/#eosphoros-ai/Awesome-Text2SQL)
