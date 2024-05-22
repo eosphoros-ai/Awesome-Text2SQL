@@ -18,7 +18,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 |      |                              [WikiSQL](https://github.com/salesforce/WikiSQL#leaderboard)                               |                [Spider](https://yale-lily.github.io/spider)<br/>Exact Match(EM)                 |              [Spider](https://yale-lily.github.io/spider)<br/>Exact Execution(EX)               |       [BIRD](https://bird-bench.github.io/)<br/>Valid Efficiency Score (VES)       |         [BIRD](https://bird-bench.github.io/)<br/>Execution Accuracy (EX)          |
 |:----:|:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|
 | 🏆1  |             **93.0** <br/>(2021/05-[SeaD+Execution-Guided Decoding](https://arxiv.org/pdf/2105.07911.pdf))              |                                **81.5** <br/>(2023/11-MiniSeek)                                 |                                **91.2** <br/>(2023/11-MiniSeek)                                 |                      **80.40** <br/>(2024/05-[ExSL + granite-20b-code](https://arxiv.org/abs/2405.04324))                      |                      **67.86** <br/>(2024/05-[ExSL + granite-20b-code](https://arxiv.org/abs/2405.04324))                       |
-| 🥈2  |               92.7 <br/>(2021/03-[SDSQL+Execution-Guided Decoding](https://arxiv.org/pdf/2103.04399.pdf))               |         74.0 <br/>(2022/09-[Graphix-3B + PICARD](https://arxiv.org/pdf/2301.07507.pdf))         | 86.6 <br/>(2023/08-[DAIL-SQL + GPT-4 + Self-Consistency](https://arxiv.org/pdf/2308.15363.pdf)) |                            71.35 <br/>(2024/01-MCS-SQL + GPT-4)                            |                   65.45 <br/>(2024/01-MCS-SQL + GPT-4)                   |
+| 🥈2  |               92.7 <br/>(2021/03-[SDSQL+Execution-Guided Decoding](https://arxiv.org/pdf/2103.04399.pdf))               |         74.0 <br/>(2022/09-[Graphix-3B + PICARD](https://arxiv.org/pdf/2301.07507.pdf))         | 86.6 <br/>(2023/08-[DAIL-SQL + GPT-4 + Self-Consistency](https://arxiv.org/pdf/2308.15363.pdf)) |                            71.35 <br/>(2024/01-[MCS-SQL + GPT-4](https://arxiv.org/abs/2405.07467))                            |                   65.45 <br/>(2024/01-[MCS-SQL + GPT-4](https://arxiv.org/abs/2405.07467))                   |
 | 🥉3  |        92.5 <br/>(2020/11-[IE-SQL+Execution-Guided Decoding](https://aclanthology.org/2020.emnlp-main.563.pdf))         |                               73.9 <br/>(2022/09-CatSQL + GraPPa)                               |          86.2 <br/>(2023/08-[DAIL-SQL + GPT-4](https://arxiv.org/pdf/2308.15363.pdf))           |                            69.56 <br/>(2024/04-GRA-SQL）                             |                           64.95 <br/>(2024/04-OpenSearch-SQL,v1 + GPT-4)                            |
 |  4   |             92.2 <br/>(2020/03-[HydraNet+Execution-Guided Decoding](https://arxiv.org/pdf/2008.04759.pdf))              |            73.1 <br/>(2022/09-[SHiP + PICARD](https://arxiv.org/pdf/2212.08785.pdf))            |                      85.6 <br/>(2023/10-DPG-SQL + GPT-4 + Self-Correction)                      |                   68.90 <br/>(2024/02-PB-SQL）                   |                           64.84 <br/>(2024/02-PB-SQL v1)                           |
 |  5   |              91.9 <br/>(2020/12-[BRIDGE+Execution-Guided Decoding](https://arxiv.org/pdf/2012.12627.pdf))               | 72.9 <br/>(2022/05-[G³R + LGESQL + ELECTRA](https://aclanthology.org/2023.findings-acl.23.pdf)) |           85.3 <br/>(2023/04-[DIN-SQL + GPT-4](https://arxiv.org/pdf/2304.11015.pdf))           |    68.80 <br/>(2024/04-OpenSearch-SQL,v1 + GPT-4）    |                            63.39 <br/>(2024/02-SENSE 13B)                            |
@@ -335,18 +335,18 @@ for Text-to-SQL
   - 2023/09, Microsoft Research proposes the open source language model phi-1.5, a Transformer with 1.3 billion parameters, which was trained using the same data sources as [phi-1](https://huggingface.co/microsoft/phi-1), augmented with a new data source that consists of various NLP synthetic texts. When assessed against benchmarks testing common sense, language understanding, and logical reasoning, phi-1.5 demonstrates a nearly state-of-the-art performance among models with less than 10 billion parameters. 2023/12, They propose [Phi-2](https://huggingface.co/microsoft/phi-2), a 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. 
 
  - Mistral-7B [[paper](https://arxiv.org/pdf/2310.06825.pdf)]
-  [[code](https://github.com/mistralai/mistral-src)] 
-  [[model](https://huggingface.co/mistralai/Mistral-7B-v0.1)]
+    [[code](https://github.com/mistralai/mistral-src)] 
+    [[model](https://huggingface.co/mistralai/Mistral-7B-v0.1)]
    - 2023/10, Mistral-AI company proposes the open source LLM Mistral 7B, a 7–billion-parameter language model engineered for superior performance and efficiency. Mistral 7B outperforms the best open 13B model (Llama 2) across all evaluated benchmarks, and the best released 34B model (Llama 1) in reasoning, mathematics, and code generation. They also provide a model fine-tuned to follow instructions, Mistral 7B – Instruct, that surpasses Llama 2 13B–chat model both on human and automated benchmarks. 2023/12，They propose the open source LLM Mixtral-8x7B, a pretrained generative Sparse Mixture of Experts, which outperforms Llama 2 70B on most benchmarks.
 
  - Deepseek [[paper](https://arxiv.org/pdf/2401.02954.pdf)]
-  [[code](https://github.com/deepseek-ai/DeepSeek-LLM)] 
-  [[model](https://huggingface.co/deepseek-ai)]
+    [[code](https://github.com/deepseek-ai/DeepSeek-LLM)] 
+    [[model](https://huggingface.co/deepseek-ai)]
    - 2023/11, DeepSeek-AI company proposes the open source LLM deepseek, which has been trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese. Similarly, the deepseek LLM mainly has two categories: base and chat, with two parameter formats of 7b and 67b respectively. Data from its paper shows that deepSeek LLM 67b surpasses LLaMA-2 70b across a range of benchmarks, especially in the domains of code, mathematics, and reasoning. Furthermore, DeepSeek LLM 67B Chat exhibits superior performance compared to GPT-3.5.
 
  - MiniCPM [[paper](https://shengdinghu.notion.site/MiniCPM-c805a17c5c8046398914e47f0542095a)]
-  [[code](https://github.com/OpenBMB/MiniCPM)] 
-  [[model](https://huggingface.co/openbmb)]
+    [[code](https://github.com/OpenBMB/MiniCPM)] 
+    [[model](https://huggingface.co/openbmb)]
    - 2024/02, ModelBest Inc. and TsinghuaNLP proposes the open source LLM MiniCPM, which is an End-Side LLM, with only 2.4B parameters excluding embeddings (2.7B in total). It is worth that MiniCPM has very close performance compared with Mistral-7B on open-sourced general benchmarks with better ability on Chinese, Mathematics and Coding after SFT. The overall performance exceeds Llama2-13B, MPT-30B, Falcon-40B, etc.
 
  - Mixtral-8x22B [[paper](https://mistral.ai/news/mixtral-8x22b/)] [[code](https://docs.mistral.ai/getting-started/open_weight_models/)] [[model](https://huggingface.co/mistral-community/Mixtral-8x22B-v0.1)]
@@ -377,8 +377,8 @@ for Text-to-SQL
 
 - RRHF [[paper](https://arxiv.org/pdf/2304.05302.pdf)] [[code](https://github.com/GanjinZero/RRHF)] 
   - 2023/04, Alibaba proposes a novel learning paradigm called RRHF（Rank Responses to Align Language Models
-with Human Feedback without tears), which can be tuned as easily as fine-tuning and achieve a similar
-performance as PPO in HH dataset.
+  with Human Feedback without tears), which can be tuned as easily as fine-tuning and achieve a similar
+  performance as PPO in HH dataset.
 
 - QLoRA [[paper](https://arxiv.org/pdf/2305.14314.pdf)] [[code](https://github.com/artidoro/qlora)] 
   - 2023/05, Washington University proposes the qlora method, based on the frozen 4bit quantization model, combined with LoRA method training, which further reduces the cost of fine-tuning.
@@ -454,8 +454,8 @@ performance as PPO in HH dataset.
   - This project is based on the LLaMa 2 7b model for Text-to-SQL fine-tuning, which includes a complete training, fine-tuning, and evaluation process.
 
 - [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning) 
-[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning?style=social)](https://github.com/hiyouga/LLaMA-Efficient-Tuning/stargazers)
-![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
+  [![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Efficient-Tuning?style=social)](https://github.com/hiyouga/LLaMA-Efficient-Tuning/stargazers)
+  ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Chat
 
 ## 🤝 Friendship Links
@@ -465,8 +465,8 @@ performance as PPO in HH dataset.
   - They are a team of technology enthusiasts from internet companies and NLP graduate students who are passionate about open source projects. Their focus is on developing solutions that protect the privacy and security of databases and large language models. Their aim is to ensure that the abilities of these models remain absolutely private, secure, and under control.
 
 - [Awesome-AIGC-Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
-[![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-AIGC-Tutorials?style=social)](https://github.com/luban-agi/Awesome-AIGC-Tutorials/stargazers)
-![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
+  [![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-AIGC-Tutorials?style=social)](https://github.com/luban-agi/Awesome-AIGC-Tutorials/stargazers)
+  ![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
   - Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields. Discover in-depth insights and knowledge catered for both beginners and advanced AI enthusiasts.
 
   [![Star History Chart](https://api.star-history.com/svg?repos=eosphoros-ai/Awesome-Text2SQL&type=Date)](https://star-history.com/#eosphoros-ai/Awesome-Text2SQL)
