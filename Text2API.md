@@ -15,6 +15,11 @@
 
 
 ## 💬 Classic Model
+- (2024-VLDB, CCF-A) Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models
+[[paper]()]
+[[code](https://github.com/eosphoros-ai/DB-GPT)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT?style=social)](https://github.com/eosphoros-ai/DB-GPT)
+
 - (2023-arXiv, None) DB-GPT: Empowering Database Interactions with Private Large Language Models
 [[paper](https://arxiv.org/pdf/2312.17449.pdf)]
 [[code](https://github.com/eosphoros-ai/DB-GPT)]
