@@ -375,6 +375,9 @@ for Text-to-SQL
 
   - Qwen-1.5-110B [[paper](https://qwenlm.github.io/blog/qwen1.5-110b/)] [[code](https://github.com/QwenLM/Qwen1.5)] [[model](https://huggingface.co/Qwen/Qwen1.5-110B)]
     - 2024年4月, 阿里云提出Qwen1.5系列首个100B+模型Qwen1.5-110B，该模型在基础模型评测中达到与Meta-Llama3-70B相当的性能，在包括MT-Bench和AlpacaEval 2.0在内的聊天评测中表现出色。Qwen1.5是Qwen2的测试版，有9种模型尺寸，包括0.5B、1.8B、4B、7B、14B、32B、72B和110B密集模型，以及14B激活2.7B的MoE模型。
+  
+  - Qwen2 [[paper](https://qwenlm.github.io/blog/qwen2/)] [[code](https://github.com/QwenLM/Qwen2)] [[model](https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f)]
+    - 2024年6月，阿里云提出从Qwen1.5演进到Qwen2，Qwen2有5个模型尺寸，包括Qwen2-0.5B、Qwen2-1.5B、Qwen2-7B、Qwen2-57B-A14B、Qwen2-72B。Qwen2-72B相比Llama-3-70B等领先模型表现出色，尤其在参数更少的情况下，超越了上一代Qwen1.5-110B的性能。
 
  ## 💡 微调
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 

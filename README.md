@@ -360,6 +360,9 @@ for Text-to-SQL
 
   - Qwen-1.5-110B [[paper](https://qwenlm.github.io/blog/qwen1.5-110b/)] [[code](https://github.com/QwenLM/Qwen1.5)] [[model](https://huggingface.co/Qwen/Qwen1.5-110B)]
     - 2024/04, Alibaba Cloud proposed the first 100B+ model of the Qwen1.5 series, Qwen1.5-110B, which achieves comparable performance with Meta-Llama3-70B in the base model evaluation, and outstanding performance in the chat evaluation, including MT-Bench and AlpacaEval 2.0. Qwen1.5 is the beta version of Qwen2, which has 9 model sizes, including 0.5B, 1.8B, 4B, 7B, 14B, 32B, 72B, and 110B dense models, and an MoE model of 14B with 2.7B activated.
+  
+  - Qwen2 [[paper](https://qwenlm.github.io/blog/qwen2/)] [[code](https://github.com/QwenLM/Qwen2)] [[model](https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f)]
+    - 2024/06, Alibaba Cloud proposed the evolution from Qwen1.5 to Qwen2, which has 5 model sizes, including Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, and Qwen2-72B. Qwen2-72B exhibits superior performance compared to leading models such as Llama-3-70B. Notably, it surpasses the performance of its predecessor, Qwen1.5-110B, despite having fewer parameters.
 
 
  ## 💡 Fine-tuning
