@@ -429,6 +429,10 @@ for Text-to-SQL
   - 2023/05, the University of Hong Kong and Alibaba propose a large-scale cross-domain dataset BIRD, which contains over 12,751 unique question-SQL pairs, 95 big databases with a total size of 33.4 GB. It also covers more than 37 professional domains, such as blockchain, hockey, healthcare and education, etc.
 
 
+- BIRD-SQL Mini-Dev [[paper](https://arxiv.org/pdf/2305.03111.pdf)] [[code](https://github.com/bird-bench/mini_dev)] [[dataset](https://bird-bench.github.io/)]
+  - 2024/06, the collaboration between the University of Hong Kong and Alibaba continues with the release of BIRD-SQL Mini-Dev, a lite version of their development dataset designed for efficient and cost-effective SQL model testing. This dataset compiles 500 high-quality text2SQL pairs from 11 distinct databases and supports both MySQL and PostgreSQL formats. It features the introduction of two new evaluation metrics: the Reward-based Valid Efficiency Score (R-VES) and the Soft F1-Score, both currently in beta and specifically developed to enhance the accuracy and efficiency of text-to-SQL models in a development setting.
+
+
 ## 🌈 Evaluation Index
 - Execution Accuracy (EX) [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
   - Definition: Calculate the proportion of the correct number of SQL execution results in the data set, and the result may be overestimated.
