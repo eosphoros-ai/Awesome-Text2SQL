@@ -470,6 +470,19 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
+## 引用
+如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
+
+```bibtex
+@misc{zhou2024dbgpthub,
+      title={DB-GPT-Hub: Towards Open Benchmarking Text-to-SQL Empowered by Large Language Models}, 
+      author={Fan Zhou and Siqiao Xue and Danrui Qi and Wenhui Shi and Wang Zhao and Ganglin Wei and Hongyang Zhang and Caigai Jiang and Gangwei Jiang and Zhixuan Chu and Faqiang Chen},
+      year={2024},
+      eprint={2406.11434},
+      archivePrefix={arXiv},
+      primaryClass={id='cs.DB' full_name='Databases' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers database management, datamining, and data processing. Roughly includes material in ACM Subject Classes E.2, E.5, H.0, H.2, and J.1.'}
+}
+```
 
 ## 🤝 友情链接
 - [eosphoros](https://github.com/eosphoros-ai)
