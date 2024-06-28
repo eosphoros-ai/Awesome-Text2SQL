@@ -6,7 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 ![last commit](https://img.shields.io/github/last-commit/eosphoros-ai/Awesome-Text2SQL?color=green)
 
-**English** | [**中文版**](README.zh.md)
+
+**English** | [**中文版**](README.zh.md) | [**Paper**](https://arxiv.org/abs/2406.11434)
 
 Curated tutorials and resources for Large Language Models, Text2SQL, [Text2DSL](Text2DSL.md), [Text2API](Text2API.md), [Text2Vis](Text2Vis.md) and more.
 
