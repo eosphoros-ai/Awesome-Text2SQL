@@ -8,7 +8,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/eosphoros-ai/Awesome-Text2SQL?color=green)
 
 
-[**English**](README.md) | **中文版**
+[**English**](README.md) | **中文版** | [**论文**](https://arxiv.org/abs/2406.11434)
 
 这里收集了针对大型语言模型、Text2SQL、[Text2DSL](Text2DSL.md)、 [Text2API](Text2API.md)、 [Text2Vis](Text2Vis.md) 等的精选教程和资源。
 
