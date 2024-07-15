@@ -65,6 +65,12 @@
 
 ## 💬 经典模型
 
+- (2024-arXiv, None) **DB-GPT-Hub**: Towards Open Benchmarking Text-to-SQL Empowered by Large Language Models
+[[paper](https://arxiv.org/pdf/2406.11434)]
+[[code](https://github.com/eosphoros-ai/DB-GPT-Hub)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
 - (2023-arXiv, None) **MAC-SQL**: A Multi-Agent Collaborative Framework for Text-to-SQL
 [[paper](https://arxiv.org/pdf/2312.11242.pdf)]
 [[code](https://github.com/wbbeyourself/MAC-SQL)]
@@ -429,14 +435,19 @@ for Text-to-SQL
 - DuSQL [[paper](https://aclanthology.org/2020.emnlp-main.562.pdf)] [[dataset](https://www.luge.ai/#/luge/dataDetail?id=13)]
   - 2020年11月，百度针对跨域文本到SQL任务提出了一个大规模、实用的中文数据集DuSQL，它包含200个数据库、813个表和23797个Question-SQL对。
 
+- KaggleDBQA [[paper](https://arxiv.org/abs/2106.11455)] [[code](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/)] [[dataset](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/tree/main?tab=readme-ov-file#Data-Format)]
+  - 2021年6月，华盛顿大学和微软研究院提出了KaggleDBQA，这是一个真实Web数据库的跨域评估数据集，具有特定领域的数据类型、原始格式和不受限制的问题。 它包括跨 8 个数据库的 272 个示例，每个数据库平均有 2.25 个表。 该数据集以其真实世界的数据源、自然的问题创作环境以及具有丰富领域知识的数据库文档而闻名。 主要统计数据：8.7% WHERE 子句、73.5% VAL、24.6% SELECT 和 6.8% NON-SELECT。
+
 - CHASE [[paper](https://aclanthology.org/2021.acl-long.180.pdf)] [[code](https://github.com/xjtu-intsoft/chase)] [[dataset](https://github.com/xjtu-intsoft/chase/tree/page/data)]
   - 2021年8月，西安交通大学和微软等提出了首个跨领域、多轮Text-to-SQL中文数据集，包含了5459个多轮问题组成的列表，17940个<query, SQL>二元组。
 
 - BIRD-SQL [[paper](https://arxiv.org/pdf/2305.03111.pdf)] [[code](https://github.com/AlibabaResearch/DAMO-ConvAI/tree/main/bird)] [[dataset](https://bird-bench.github.io/)]
   - 2023年5月，香港大学和阿里巴巴提出了一个大规模跨域数据集BIRD，其中包含超过12751个独特的问题 SQL、95个大数据库，总大小为33.4GB。它还涵盖区块链、曲棍球、医疗保健和教育等超过37个专业领域。
 
-- KaggleDBQA [[paper](https://arxiv.org/abs/2106.11455)] [[code](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/)] [[dataset](https://github.com/Chia-Hsuan-Lee/KaggleDBQA/tree/main?tab=readme-ov-file#Data-Format)]
-  - 2021年6月，华盛顿大学和微软研究院提出了KaggleDBQA，这是一个真实Web数据库的跨域评估数据集，具有特定领域的数据类型、原始格式和不受限制的问题。 它包括跨 8 个数据库的 272 个示例，每个数据库平均有 2.25 个表。 该数据集以其真实世界的数据源、自然的问题创作环境以及具有丰富领域知识的数据库文档而闻名。 主要统计数据：8.7% WHERE 子句、73.5% VAL、24.6% SELECT 和 6.8% NON-SELECT。
+- BIRD-SQL Mini-Dev [[paper](https://arxiv.org/pdf/2305.03111.pdf)] [[code](https://github.com/bird-bench/mini_dev)] [[dataset](https://bird-bench.github.io/)]
+  - 2024年6月，香港大学与阿里巴巴继续合作，发布 BIRD-SQL Mini-Dev，这是其开发数据集的精简版，旨在高效且经济高效地测试SQL模型。该数据集从11个不同的数据库中编译了500个高质量的text2SQL对，并支持MySQL和PostgreSQL格式。它引入了两个新的评估指标：基于奖励的有效效率分数 (R-VES) 和F1-Score，这两个指标目前都处于测试阶段，专门为在开发环境中提高文本到SQL模型的准确性和效率而开发。
+
+
 
 ## 🌈 评测指标
 - Execution Accuracy (EX) [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
