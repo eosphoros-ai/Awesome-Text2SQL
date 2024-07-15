@@ -58,6 +58,11 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
+- (2024-arXiv, None) **DB-GPT-Hub**: Towards Open Benchmarking Text-to-SQL Empowered by Large Language Models
+[[paper](https://arxiv.org/pdf/2406.11434)]
+[[code](https://github.com/eosphoros-ai/DB-GPT-Hub)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
 - (2023-arXiv, None) **MAC-SQL**: A Multi-Agent Collaborative Framework for Text-to-SQL
 [[paper](https://arxiv.org/pdf/2312.11242.pdf)]
