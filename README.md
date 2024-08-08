@@ -43,7 +43,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
   - [🌈 Evaluation Index](#-evaluation-index)
   - [📦 Libraries](#-libraries)
   - [🔧 Practice Project](#-practice-project)
-  - [Citation](#citation)
+  - [🔗 Citation](#-citation)
   - [🤝 Friendship Links](#-friendship-links)
 
 ## 👋 Introduction
@@ -450,8 +450,8 @@ for Text-to-SQL
 - [mindsql](https://pypi.org/project/mindsql/)
   - MindSQL is a Python RAG (Retrieval-Augmented Generation) Library designed to streamline the interaction between users and their databases using just a few lines of code. With seamless integration for renowned databases such as PostgreSQL, MySQL, and SQLite, MindSQL also extends its capabilities to major databases like Snowflake and BigQuery by extending the core class. The library utilizes large language models (LLM) like GPT-4, Llama 2, Google Gemini, and supports knowledge bases like ChromaDB and Fais
 
-- [text2sql]([https](https://github.com/premAI-io/text2sql))
-  - Prem text2sql is a lightweight library that aims to provide modular and extendible tools for natural language to SQL applications. This would help developers build more controllable RAG solutions based on different databases. It seeks to offer toolings for evaluation, fine-tuning, connectors, and agentic frameworks. We are currently in the building stages, with stable support for evaluating text2sql models and pipelines. Later versions aim to release features for fine-tuning and Agents. 
+- [text2sql](https://github.com/premAI-io/text2sql)
+  - Prem text2sql is a lightweight library that aims to provide modular and extendible tools for natural language to SQL applications. This would help developers build more controllable RAG solutions based on different databases. It seeks to offer toolings for evaluation, fine-tuning, connectors, and agentic frameworks. They are currently in the building stages, with stable support for evaluating text2sql models and pipelines. Later versions aim to release features for fine-tuning and Agents. 
 
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
@@ -474,7 +474,7 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Chat
 
-## Citation
+## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
 
 ```bibtex
