@@ -46,6 +46,7 @@
   - [🌈 评测指标](#-评测指标)
   - [📦 库函数](#-库函数)
   - [🔧 实践项目](#-实践项目)
+  - [🔗 引用](#-引用)
   - [🤝 友情链接](#-友情链接)
 
 
@@ -459,7 +460,9 @@ for Text-to-SQL
 ## 📦 库函数
 - [mindsql](https://pypi.org/project/mindsql/)
   - MindSQL 是一个 Python RAG（检索增强生成）库，旨在仅使用几行代码来简化用户与其数据库之间的交互。 MindSQL 与 PostgreSQL、MySQL、SQLite 等知名数据库无缝集成，还通过扩展核心类，将其功能扩展到 Snowflake、BigQuery 等主流数据库。 该库利用 GPT-4、Llama 2、Google Gemini 等大型语言模型 (LLM)，并支持 ChromaDB 和 Fais 等知识库。
-
+- [text2sql](https://github.com/premAI-io/text2sql)
+  - Prem text2sql 是一个轻量级库，旨在为自然语言到 SQL 应用程序提供模块化和可扩展的工具。这将帮助开发人员基于不同的数据库构建更可控的 RAG 解决方案。它旨在提供用于评估、微调、连接器和代理框架的工具。他们目前处于构建阶段，为评估 text2sql 模型和管道提供稳定的支持。后续版本旨在发布用于微调和代理的功能。
+  
 ## 🔧 实践项目
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
@@ -481,7 +484,7 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
-## 引用
+## 🔗 引用
 如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
 
 ```bibtex
