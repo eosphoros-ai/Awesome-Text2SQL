@@ -451,7 +451,7 @@ for Text-to-SQL
   - MindSQL is a Python RAG (Retrieval-Augmented Generation) Library designed to streamline the interaction between users and their databases using just a few lines of code. With seamless integration for renowned databases such as PostgreSQL, MySQL, and SQLite, MindSQL also extends its capabilities to major databases like Snowflake and BigQuery by extending the core class. The library utilizes large language models (LLM) like GPT-4, Llama 2, Google Gemini, and supports knowledge bases like ChromaDB and Fais
 
 - [text2sql](https://github.com/premAI-io/text2sql)
-  - Prem text2sql is a lightweight library that aims to provide modular and extendible tools for natural language to SQL applications. This would help developers build more controllable RAG solutions based on different databases. It seeks to offer toolings for evaluation, fine-tuning, connectors, and agentic frameworks. They are currently in the building stages, with stable support for evaluating text2sql models and pipelines. Later versions aim to release features for fine-tuning and Agents. 
+  - Prem text2sql is a lightweight library that aims to provide modular and extendible tools for natural language to SQL applications. This would help developers build more controllable RAG solutions based on different databases. It seeks to offer toolings for evaluation, fine-tuning, connectors, and agentic frameworks. We are currently in the building stages, with stable support for evaluating text2sql models and pipelines. Later versions aim to release features for fine-tuning and Agents. 
 
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
