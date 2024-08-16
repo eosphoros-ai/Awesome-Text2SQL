@@ -43,7 +43,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
   - [🌈 Evaluation Index](#-evaluation-index)
   - [📦 Libraries](#-libraries)
   - [🔧 Practice Project](#-practice-project)
-  - [Citation](#citation)
+  - [🔗 Citation](#-citation)
   - [🤝 Friendship Links](#-friendship-links)
 
 ## 👋 Introduction
@@ -474,7 +474,7 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Chat
 
-## Citation
+## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
 
 ```bibtex
