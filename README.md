@@ -52,6 +52,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
   - Output: SQL, such as "*SELECT * FROM t_user ORDER BY id DESC LIMIT 10*"
 
 ## 📖 Survey
+- (2024-arXiv) A Survey on Employing Large Language Models for Text-to-SQL Tasks [[paper](https://arxiv.org/pdf/2407.15186)]
 - (2023-International Conference on Very Large Data Bases, VLDB, CCF-A）A survey on deep learning approaches for text-to-SQL [[paper](https://link.springer.com/article/10.1007/s00778-022-00776-8)]
 - (2022-IEEE Transactions on Knowledge and Data Engineering, TKDE, CCF-A) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
 - (2022-International Conference on Computational Linguistics, COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
