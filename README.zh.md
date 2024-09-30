@@ -46,6 +46,7 @@
   - [🌈 评测指标](#-评测指标)
   - [📦 库函数](#-库函数)
   - [🔧 实践项目](#-实践项目)
+  - [🔗 引用](#-引用)
   - [🤝 友情链接](#-友情链接)
 
 
@@ -56,7 +57,8 @@
 
 
 ## 📖 综述
-- (2023-International Conference on Very Large Data Bases, VLDB, CCF-A）A survey on deep learning approaches for text-to-SQL [[paper](https://link.springer.com/article/10.1007/s00778-022-00776-8)]
+- (2024-arXiv) A Survey on Employing Large Language Models for Text-to-SQL Tasks [[paper](https://arxiv.org/pdf/2407.15186)]
+- (2023-International Conference on Very Large Data Bases, VLDB, CCF-A) A survey on deep learning approaches for text-to-SQL [[paper](https://link.springer.com/article/10.1007/s00778-022-00776-8)]
 - (2022-IEEE Transactions on Knowledge and Data Engineering, TKDE, CCF-A) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
 - (2022-International Conference on Computational Linguistics, COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
 - (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
@@ -385,6 +387,15 @@ for Text-to-SQL
   - Qwen2 [[paper](https://qwenlm.github.io/blog/qwen2/)] [[code](https://github.com/QwenLM/Qwen2)] [[model](https://huggingface.co/collections/Qwen/qwen2-6659360b33528ced941e557f)]
     - 2024年6月，阿里云提出从Qwen1.5演进到Qwen2，Qwen2有5个模型尺寸，包括Qwen2-0.5B、Qwen2-1.5B、Qwen2-7B、Qwen2-57B-A14B、Qwen2-72B。Qwen2-72B相比Llama-3-70B等领先模型表现出色，尤其在参数更少的情况下，超越了上一代Qwen1.5-110B的性能。
 
+   - Llama 3.1  [[paper](https://ai.meta.com/blog/meta-llama-3-1/)] [[code](https://github.com/meta-llama/llama3)] [[model](https://huggingface.co/meta-llama)]
+     - 2024年7月, Meta AI 推出了 Llama 3.1 405B，这是第一个公开可用的模型，在常识、可操纵性、数学、工具使用和多语言翻译等最先进的能力方面可与顶级 AI 模型相媲美。作为最新版本的一部分，他们推出了 8B 和 70B 模型的升级版。它们是多语言的，具有明显更长的 128K 上下文长度、最先进的工具使用和整体更强大的推理能力。
+
+  - Qwen2.5 [[paper](https://arxiv.org/abs/2407.10671)] [[code](https://github.com/QwenLM/Qwen2.5)] [[model](https://huggingface.co/Qwen)]
+    - 2024年9月, 2024/09，阿里云发布了Qwen家族的最新成员：Qwen2.5，以及专门用于编码的Qwen2.5-Coder和数学的Qwen2.5-Math。所有开放权重模型都是密集的、仅用于解码器的语言模型，有多种大小可供选择，包括：Qwen2.5（0.5B、1.5B、3B、7B、14B、32B和72B），Qwen2.5-Coder（1.5B、7B和32B正在开发中）和Qwen2.5-Math（1.5B、7B和72B）。他们将其最大的开源模型Qwen2.5-72B-Instruct与领先的开源模型Llama-3.1-70B-Instrct和Mistral-Large-V2-Instruct进行了对标，在多个指标上取得了最佳成绩。除了指令调整的语言模型之外，他们还发现 Qwen2.5-72B 即使与像 Llama-3-405B 这样的更大的模型相比也能达到顶级性能。
+    
+   - Llama 3.2  [[paper](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/)] [[code](https://github.com/meta-llama/llama3)] [[model](https://huggingface.co/meta-llama)]
+     - 2024年9月, Meta AI 提出了 Llama 3.2，其中包括小型和中型视觉 LLM（11B 和 90B）以及适合边缘和移动设备的轻量级纯文本模型（1B 和 3B），包括预训练和指令调整版本。Llama 3.2 1B 和 3B 模型支持 128K 令牌的上下文长度，并且是同类产品中最先进的，适用于总结、指令跟踪和在边缘本地运行的重写任务等设备用例。这些模型在第一天就适用于 Qualcomm 和联发科硬件，并针对 Arm 处理器进行了优化。
+
  ## 💡 微调
 - P-Tuning [[paper](https://arxiv.org/pdf/2103.10385.pdf)] [[code](https://github.com/THUDM/P-tuning)] 
   - 2021年3月，清华大学等提出了针对大模型微调方法P-Tuning，采用可训练的连续提示词嵌入，降低了微调成本。
@@ -447,7 +458,9 @@ for Text-to-SQL
 - BIRD-SQL Mini-Dev [[paper](https://arxiv.org/pdf/2305.03111.pdf)] [[code](https://github.com/bird-bench/mini_dev)] [[dataset](https://bird-bench.github.io/)]
   - 2024年6月，香港大学与阿里巴巴继续合作，发布 BIRD-SQL Mini-Dev，这是其开发数据集的精简版，旨在高效且经济高效地测试SQL模型。该数据集从11个不同的数据库中编译了500个高质量的text2SQL对，并支持MySQL和PostgreSQL格式。它引入了两个新的评估指标：基于奖励的有效效率分数 (R-VES) 和F1-Score，这两个指标目前都处于测试阶段，专门为在开发环境中提高文本到SQL模型的准确性和效率而开发。
 
-
+- Spider 2.0 [[paper](https://spider2-sql.github.io/)] [[code](https://github.com/xlang-ai/Spider2)]
+[[dataset](https://github.com/xlang-ai/Spider2)]
+  - 2024年8月, XLang AI 提出的 Spider 2.0数据集是针对实际企业级工作流中Text2SQL任务的高级评估框架。它包含 600 个复杂的Text2SQL工作流问题，这些问题来自各种企业数据库用例。数据集包括来自实际数据应用程序的数据库，通常包含 1,000 多列，存储在云端或本地系统中，如 BigQuery、Snowflake 或 PostgreSQL。Spider 2.0 中的问题需要理解和搜索数据库元数据、方言文档和项目级代码库。挑战包括处理长上下文、执行复杂推理以及生成具有多种操作的多个 SQL 查询，通常超过 100 行。目前最先进的模型（如 GPT-4）仅解决了 6.0% 的问题，这凸显了数据集的难度以及对更高级、自主的基于 LLM 的代码代理的需求。
 
 ## 🌈 评测指标
 - Execution Accuracy (EX) [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
@@ -459,7 +472,9 @@ for Text-to-SQL
 ## 📦 库函数
 - [mindsql](https://pypi.org/project/mindsql/)
   - MindSQL 是一个 Python RAG（检索增强生成）库，旨在仅使用几行代码来简化用户与其数据库之间的交互。 MindSQL 与 PostgreSQL、MySQL、SQLite 等知名数据库无缝集成，还通过扩展核心类，将其功能扩展到 Snowflake、BigQuery 等主流数据库。 该库利用 GPT-4、Llama 2、Google Gemini 等大型语言模型 (LLM)，并支持 ChromaDB 和 Fais 等知识库。
-
+- [text2sql](https://github.com/premAI-io/text2sql)
+  - Prem text2sql 是一个轻量级库，旨在为自然语言到 SQL 应用程序提供模块化和可扩展的工具。这将帮助开发人员基于不同的数据库构建更可控的 RAG 解决方案。它旨在提供用于评估、微调、连接器和代理框架的工具。他们目前处于构建阶段，为评估 text2sql 模型和管道提供稳定的支持。后续版本旨在发布用于微调和代理的功能。
+  
 ## 🔧 实践项目
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
@@ -481,7 +496,7 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
-## 引用
+## 🔗 引用
 如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
 
 ```bibtex
