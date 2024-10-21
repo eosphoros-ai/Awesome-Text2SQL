@@ -66,10 +66,35 @@
 
 
 ## 💬 经典模型
+- (2024-arXiv, None) **CHASE-SQL**: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL
+[[paper](https://arxiv.org/abs/2410.01943)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
+- (2024-arXiv, None) **E-SQL**: Direct Schema Linking via Question Enrichment in Text-to-SQL
+[[paper](https://arxiv.org/abs/2409.16751)]
+[[code](https://github.com/HasanAlpCaferoglu/E-SQL)]
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
+- (2024-arXiv, None) **Distillery**: The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models
+[[paper](https://arxiv.org/abs/2408.07702)]
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
 - (2024-arXiv, None) **DB-GPT-Hub**: Towards Open Benchmarking Text-to-SQL Empowered by Large Language Models
 [[paper](https://arxiv.org/pdf/2406.11434)]
 [[code](https://github.com/eosphoros-ai/DB-GPT-Hub)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
+- (2024-arXiv, None) **SuperSQL**: The Dawn of Natural Language to SQL: Are We Fully Ready?
+[[paper](https://arxiv.org/abs/2406.01265)]
+[[code](https://github.com/HKUSTDial/NL2SQL360)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
+- (2024-arXiv, None) **CHESS**: Contextual Harnessing for Efficient SQL Synthesis
+[[paper](https://arxiv.org/abs/2405.16755)]
+[[code](https://github.com/ShayanTalaei/CHESS)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
