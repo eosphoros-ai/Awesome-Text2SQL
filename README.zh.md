@@ -57,13 +57,30 @@
 
 
 ## 📖 综述
-- (2024-arXiv) A Survey on Employing Large Language Models for Text-to-SQL Tasks [[paper](https://arxiv.org/pdf/2407.15186)]
-- (2023-International Conference on Very Large Data Bases, VLDB, CCF-A) A survey on deep learning approaches for text-to-SQL [[paper](https://link.springer.com/article/10.1007/s00778-022-00776-8)]
-- (2022-IEEE Transactions on Knowledge and Data Engineering, TKDE, CCF-A) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions [[paper](https://arxiv.org/pdf/2208.13629.pdf)]
-- (2022-International Conference on Computational Linguistics, COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
-- (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
+- (2024-arXiv) From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems
+[[paper](https://arxiv.org/pdf/2410.01066)]
 
+- (2024-arXiv) Large Language Model Enhanced Text-to-SQL Generation: A Survey
+[[paper](https://arxiv.org/pdf/2410.06011)]
 
+- (2024-arXiv) A Survey of NL2SQL with Large Language Models: Where are we, and where are we going? 
+[[paper](https://arxiv.org/pdf/2408.05109)]
+[[code](https://github.com/HKUSTDial/NL2SQL_Handbook)]
+
+- (2024-arXiv) A Survey on Employing Large Language Models for Text-to-SQL Tasks 
+[[paper](https://arxiv.org/pdf/2407.15186)]
+
+- (2023-VLDB, CCF-A）A survey on deep learning approaches for text-to-SQL 
+[[paper](https://link.springer.com/article/10.1007/s00778-022-00776-8)]
+
+- (2022-TKDE, CCF-A) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions 
+[[paper](https://arxiv.org/pdf/2208.13629.pdf)]
+
+- (2022-COLOING, CCF-B) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect 
+[[paper](https://arxiv.org/pdf/2208.10099v1.pdf)]
+
+- (2022-arXiv)Deep Learning Driven Natural Languages Text to SQL Query Conversion: A Survey 
+[[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 经典模型
 - (2024-arXiv, None) **CHASE-SQL**: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL
