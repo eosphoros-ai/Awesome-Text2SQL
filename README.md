@@ -52,6 +52,9 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
   - Output: SQL, such as "*SELECT * FROM t_user ORDER BY id DESC LIMIT 10*"
 
 ## 📖 Survey
+- (2024-arXiv) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL
+[[paper](https://arxiv.org/pdf/2406.08426)]
+
 - (2024-arXiv) From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems
 [[paper](https://arxiv.org/pdf/2410.01066)]
 
@@ -497,7 +500,7 @@ for Text-to-SQL
   - 2024/06, the collaboration between the University of Hong Kong and Alibaba continues with the release of BIRD-SQL Mini-Dev, a lite version of their development dataset designed for efficient and cost-effective SQL model testing. This dataset compiles 500 high-quality text2SQL pairs from 11 distinct databases and supports both MySQL and PostgreSQL formats. It features the introduction of two new evaluation metrics: the Reward-based Valid Efficiency Score (R-VES) and the Soft F1-Score, both currently in beta and specifically developed to enhance the accuracy and efficiency of text-to-SQL models in a development setting.
 
 - Spider 2.0 [[paper](https://spider2-sql.github.io/)] [[code](https://github.com/xlang-ai/Spider2)]
-[[dataset](https://github.com/xlang-ai/Spider2)]
+  [[dataset](https://github.com/xlang-ai/Spider2)]
   - 2024/08, Spider 2.0, proposed by XLang AI, serves as an advanced evaluation framework for text-to-SQL tasks within real-world enterprise-level workflows. It contains 600 complex text-to-SQL workflow problems, derived from various enterprise database use cases. The dataset includes databases sourced from actual data applications, often containing over 1,000 columns, and stored in cloud or local systems like BigQuery, Snowflake, or PostgreSQL. Problems in Spider 2.0 require understanding and searching through database metadata, dialect documentation, and project-level codebases. The challenges include processing long contexts, performing intricate reasoning, and generating multiple SQL queries with diverse operations, often exceeding 100 lines. Current state-of-the-art models, like GPT-4, solve only 6.0% of the questions, highlighting the dataset's difficulty and the need for more advanced, autonomous LLM-based code agents.
 
 ## 🌈 Evaluation Index
