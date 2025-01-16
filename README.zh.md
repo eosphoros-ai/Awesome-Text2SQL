@@ -57,6 +57,9 @@
 
 
 ## 📖 综述
+- (2024-arXiv) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL
+[[paper](https://arxiv.org/pdf/2406.08426)]
+
 - (2024-arXiv) From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems
 [[paper](https://arxiv.org/pdf/2410.01066)]
 
@@ -500,8 +503,7 @@ for Text-to-SQL
 - BIRD-SQL Mini-Dev [[paper](https://arxiv.org/pdf/2305.03111.pdf)] [[code](https://github.com/bird-bench/mini_dev)] [[dataset](https://bird-bench.github.io/)]
   - 2024年6月，香港大学与阿里巴巴继续合作，发布 BIRD-SQL Mini-Dev，这是其开发数据集的精简版，旨在高效且经济高效地测试SQL模型。该数据集从11个不同的数据库中编译了500个高质量的text2SQL对，并支持MySQL和PostgreSQL格式。它引入了两个新的评估指标：基于奖励的有效效率分数 (R-VES) 和F1-Score，这两个指标目前都处于测试阶段，专门为在开发环境中提高文本到SQL模型的准确性和效率而开发。
 
-- Spider 2.0 [[paper](https://spider2-sql.github.io/)] [[code](https://github.com/xlang-ai/Spider2)]
-[[dataset](https://github.com/xlang-ai/Spider2)]
+- Spider 2.0 [[paper](https://spider2-sql.github.io/)] [[code](https://github.com/xlang-ai/Spider2)] [[dataset](https://github.com/xlang-ai/Spider2)]
   - 2024年8月, XLang AI 提出的 Spider 2.0数据集是针对实际企业级工作流中Text2SQL任务的高级评估框架。它包含 600 个复杂的Text2SQL工作流问题，这些问题来自各种企业数据库用例。数据集包括来自实际数据应用程序的数据库，通常包含 1,000 多列，存储在云端或本地系统中，如 BigQuery、Snowflake 或 PostgreSQL。Spider 2.0 中的问题需要理解和搜索数据库元数据、方言文档和项目级代码库。挑战包括处理长上下文、执行复杂推理以及生成具有多种操作的多个 SQL 查询，通常超过 100 行。目前最先进的模型（如 GPT-4）仅解决了 6.0% 的问题，这凸显了数据集的难度以及对更高级、自主的基于 LLM 的代码代理的需求。
 
 ## 🌈 评测指标
