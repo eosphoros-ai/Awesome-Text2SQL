@@ -81,6 +81,10 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
+- (2024-NeurIPS, CCF-A) Towards Optimizing SQL Generation via LLM Routing
+[[paper](https://arxiv.org/abs/2411.04319)]
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
 - (2024-arXiv, None) **CHASE-SQL**: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL
 [[paper](https://arxiv.org/abs/2410.01943)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
