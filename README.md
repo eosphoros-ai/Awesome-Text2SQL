@@ -81,6 +81,14 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
+- (2025-EDBT, CCF-B) **DBCᴏᴘɪʟᴏᴛ**: Natural Language Querying over Massive Databases via Schema Routing
+[[paper](https://arxiv.org/pdf/2312.03463.pdf)]
+[[code](https://github.com/tshu-w/DBCopilot)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+[![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
+[![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
+
 - (2024-NeurIPS, CCF-A) Towards Optimizing SQL Generation via LLM Routing
 [[paper](https://arxiv.org/abs/2411.04319)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
@@ -122,14 +130,6 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[code](https://github.com/wbbeyourself/MAC-SQL)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
-
-- (2023-arXiv, None) **DBCᴏᴘɪʟᴏᴛ**: Scaling Natural Language Querying to Massive Databases
-[[paper](https://arxiv.org/pdf/2312.03463.pdf)]
-[[code](https://github.com/tshu-w/DBCopilot)]
-[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
-[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
-[![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
-[![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
 
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]

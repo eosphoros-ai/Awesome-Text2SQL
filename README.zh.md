@@ -86,6 +86,14 @@
 [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 经典模型
+- (2025-EDBT, CCF-B) **DBCᴏᴘɪʟᴏᴛ**: Natural Language Querying over Massive Databases via Schema Routing
+ [[paper](https://arxiv.org/pdf/2312.03463.pdf)]
+ [[code](https://github.com/tshu-w/DBCopilot)]
+ [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+ [![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
+ [![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
+ [![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
+
 - (2024-arXiv, None) **CHASE-SQL**: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL
 [[paper](https://arxiv.org/abs/2410.01943)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
@@ -123,14 +131,6 @@
 [[code](https://github.com/wbbeyourself/MAC-SQL)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
-
-- (2023-arXiv, None) **DBCᴏᴘɪʟᴏᴛ**: Scaling Natural Language Querying to Massive Databases
-[[paper](https://arxiv.org/pdf/2312.03463.pdf)]
-[[code](https://github.com/tshu-w/DBCopilot)]
-[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
-[![](https://img.shields.io/badge/Spider--Realistic-yellow)](https://aclanthology.org/2021.naacl-main.105.pdf)
-[![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
-[![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
 
 - (2023-arXiv, None) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation
 [[paper](https://arxiv.org/pdf/2308.15363v2.pdf)]
