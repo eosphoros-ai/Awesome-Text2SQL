@@ -541,6 +541,11 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Chat
 
+- [Datrics Text2SQL](https://github.com/datrics-ai/text2sql)
+[![GitHub Repo stars](https://img.shields.io/github/stars/datrics-ai/text2sql?style=social)](https://github.com/datrics-ai/text2sql/stargazers)
+![last commit](https://img.shields.io/github/last-commit/datrics-ai/text2sql?color=green)
+  - Datrics Text2SQL is an open-source framework that uses a tuned RAG pipeline to generate SQL queries from natural language. It focuses on accurate schema retrieval, resolving ambiguous documentation, and improving generalization on real-world queries.
+
 ## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
 
