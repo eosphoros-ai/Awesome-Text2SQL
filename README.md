@@ -81,6 +81,12 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2208.04415.pdf)]
 
 ## 💬 Classic Model
+- (2025-NAACL, CCF-B) **You Only Read Once (YORO)**: Learning to Internalize Database Knowledge for Text-to-SQL
+[[paper](https://aclanthology.org/2025.naacl-long.94/)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+[![](https://img.shields.io/badge/KaggleDBQA-red)](https://github.com/Chia-Hsuan-Lee/KaggleDBQA)
+
 - (2025-EDBT, CCF-B) **DBCᴏᴘɪʟᴏᴛ**: Natural Language Querying over Massive Databases via Schema Routing
 [[paper](https://arxiv.org/pdf/2312.03463.pdf)]
 [[code](https://github.com/tshu-w/DBCopilot)]
