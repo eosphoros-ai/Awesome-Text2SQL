@@ -52,8 +52,9 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
   - Output: SQL, such as "*SELECT * FROM t_user ORDER BY id DESC LIMIT 10*"
 
 ## 📖 Survey
-- (2024-arXiv) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL
+- (2025-TKDE, CCF-A) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL
 [[paper](https://arxiv.org/pdf/2406.08426)]
+[[code](https://github.com/DEEP-PolyU/Awesome-LLM-based-Text2SQL)]
 
 - (2024-arXiv) From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems
 [[paper](https://arxiv.org/pdf/2410.01066)]
