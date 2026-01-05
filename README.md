@@ -525,7 +525,10 @@ for Text-to-SQL
   - MindSQL is a Python RAG (Retrieval-Augmented Generation) Library designed to streamline the interaction between users and their databases using just a few lines of code. With seamless integration for renowned databases such as PostgreSQL, MySQL, and SQLite, MindSQL also extends its capabilities to major databases like Snowflake and BigQuery by extending the core class. The library utilizes large language models (LLM) like GPT-4, Llama 2, Google Gemini, and supports knowledge bases like ChromaDB and Fais
 
 - [PremSQL](https://github.com/premAI-io/premsql)
-  - PremSQL is a lightweight library that aims to provide modular and extendible tools for natural language to SQL applications. This would help developers build more controllable RAG solutions based on different databases. It seeks to offer toolings for evaluation, fine-tuning, connectors, and agentic frameworks. PremSQL also comes up with [Prem-1B-SQL](https://huggingface.co/premai-io/prem-1B-SQL) a 1B parameter Text to SQL model with 51.54 % on BirdBench private test set. It is super light weight and works for fully local text to SQL generation.  
+  - PremSQL is a lightweight library that aims to provide modular and extendible tools for natural language to SQL applications. This would help developers build more controllable RAG solutions based on different databases. It seeks to offer toolings for evaluation, fine-tuning, connectors, and agentic frameworks. PremSQL also comes up with [Prem-1B-SQL](https://huggingface.co/premai-io/prem-1B-SQL) a 1B parameter Text to SQL model with 51.54 % on BirdBench private test set. It is super light weight and works for fully local text to SQL generation.
+ 
+- [QueryWeaver](https://github.com/FalkorDB/QueryWeaver)
+  - QueryWeaver is an open-source graph-powered Text-to-SQL engine that leverages a semantic layer to bridge the gap between natural language and complex relational databases. By mapping database schemas into knowledge graphs using FalkorDB, it provides superior contextual understanding for intricate joins and business logic. The library supports PostgreSQL and MySQL and includes a built-in MCP (Model Context Protocol) server, making it easily integrable into agentic workflows and LLM-based tools like Claude or Cursor.
 
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
