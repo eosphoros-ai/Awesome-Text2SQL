@@ -110,7 +110,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[code](https://github.com/HasanAlpCaferoglu/E-SQL)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
-- (2024-arXiv, None) **Distillery**: The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models
+- (2024-NeurIPS, CCF-A) **Distillery**: The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models
 [[paper](https://arxiv.org/abs/2408.07702)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
