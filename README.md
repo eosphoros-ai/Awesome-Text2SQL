@@ -96,6 +96,12 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
 [![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
 
+- (2025-ACL, CCF-A) **MAC-SQL**: A Multi-Agent Collaborative Framework for Text-to-SQL
+[[paper](https://arxiv.org/pdf/2312.11242.pdf)]
+[[code](https://github.com/wbbeyourself/MAC-SQL)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
 - (2024-NeurIPS, CCF-A) Towards Optimizing SQL Generation via LLM Routing
 [[paper](https://arxiv.org/abs/2411.04319)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
@@ -129,12 +135,6 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2024-arXiv, None) **CHESS**: Contextual Harnessing for Efficient SQL Synthesis
 [[paper](https://arxiv.org/abs/2405.16755)]
 [[code](https://github.com/ShayanTalaei/CHESS)]
-[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
-[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
-
-- (2023-arXiv, None) **MAC-SQL**: A Multi-Agent Collaborative Framework for Text-to-SQL
-[[paper](https://arxiv.org/pdf/2312.11242.pdf)]
-[[code](https://github.com/wbbeyourself/MAC-SQL)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
