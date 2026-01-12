@@ -56,15 +56,15 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2406.08426)]
 [[code](https://github.com/DEEP-PolyU/Awesome-LLM-based-Text2SQL)]
 
+- (2025-TKDE, CCF-A) A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?
+[[paper](https://arxiv.org/pdf/2408.05109)]
+[[code](https://github.com/HKUSTDial/NL2SQL_Handbook)]
+
 - (2024-arXiv) From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems
 [[paper](https://arxiv.org/pdf/2410.01066)]
 
 - (2024-arXiv) Large Language Model Enhanced Text-to-SQL Generation: A Survey
 [[paper](https://arxiv.org/pdf/2410.06011)]
-
-- (2024-arXiv) A Survey of NL2SQL with Large Language Models: Where are we, and where are we going? 
-[[paper](https://arxiv.org/pdf/2408.05109)]
-[[code](https://github.com/HKUSTDial/NL2SQL_Handbook)]
 
 - (2024-arXiv) A Survey on Employing Large Language Models for Text-to-SQL Tasks 
 [[paper](https://arxiv.org/pdf/2407.15186)]
@@ -120,7 +120,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
-- (2024-arXiv, None) **SuperSQL**: The Dawn of Natural Language to SQL: Are We Fully Ready?
+- (2024-VLDB, CCF-A) **SuperSQL**: The Dawn of Natural Language to SQL: Are We Fully Ready?
 [[paper](https://arxiv.org/abs/2406.01265)]
 [[code](https://github.com/HKUSTDial/NL2SQL360)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
