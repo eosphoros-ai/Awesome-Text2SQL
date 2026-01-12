@@ -56,15 +56,15 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[paper](https://arxiv.org/pdf/2406.08426)]
 [[code](https://github.com/DEEP-PolyU/Awesome-LLM-based-Text2SQL)]
 
+- (2025-TKDE, CCF-A) A Survey of Text-to-SQL in the Era of LLMs: Where are we, and where are we going?
+[[paper](https://arxiv.org/pdf/2408.05109)]
+[[code](https://github.com/HKUSTDial/NL2SQL_Handbook)]
+
 - (2024-arXiv) From Natural Language to SQL: Review of LLM-based Text-to-SQL Systems
 [[paper](https://arxiv.org/pdf/2410.01066)]
 
 - (2024-arXiv) Large Language Model Enhanced Text-to-SQL Generation: A Survey
 [[paper](https://arxiv.org/pdf/2410.06011)]
-
-- (2024-arXiv) A Survey of NL2SQL with Large Language Models: Where are we, and where are we going? 
-[[paper](https://arxiv.org/pdf/2408.05109)]
-[[code](https://github.com/HKUSTDial/NL2SQL_Handbook)]
 
 - (2024-arXiv) A Survey on Employing Large Language Models for Text-to-SQL Tasks 
 [[paper](https://arxiv.org/pdf/2407.15186)]
@@ -96,6 +96,12 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [![](https://img.shields.io/badge/Spider--Syn-blue)](https://arxiv.org/pdf/2106.01065.pdf)
 [![](https://img.shields.io/badge/BIRD-red)](https://bird-bench.github.io/)
 
+- (2025-ACL, CCF-A) **MAC-SQL**: A Multi-Agent Collaborative Framework for Text-to-SQL
+[[paper](https://arxiv.org/pdf/2312.11242.pdf)]
+[[code](https://github.com/wbbeyourself/MAC-SQL)]
+[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
+[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
+
 - (2024-NeurIPS, CCF-A) Towards Optimizing SQL Generation via LLM Routing
 [[paper](https://arxiv.org/abs/2411.04319)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
@@ -110,7 +116,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [[code](https://github.com/HasanAlpCaferoglu/E-SQL)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
-- (2024-arXiv, None) **Distillery**: The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models
+- (2024-NeurIPS, CCF-A) **Distillery**: The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models
 [[paper](https://arxiv.org/abs/2408.07702)]
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
@@ -120,7 +126,7 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
-- (2024-arXiv, None) **SuperSQL**: The Dawn of Natural Language to SQL: Are We Fully Ready?
+- (2024-VLDB, CCF-A) **SuperSQL**: The Dawn of Natural Language to SQL: Are We Fully Ready?
 [[paper](https://arxiv.org/abs/2406.01265)]
 [[code](https://github.com/HKUSTDial/NL2SQL360)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
@@ -129,12 +135,6 @@ We warmly welcome contributions from everyone, whether you've found a typo, a bu
 - (2024-arXiv, None) **CHESS**: Contextual Harnessing for Efficient SQL Synthesis
 [[paper](https://arxiv.org/abs/2405.16755)]
 [[code](https://github.com/ShayanTalaei/CHESS)]
-[![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
-[![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
-
-- (2023-arXiv, None) **MAC-SQL**: A Multi-Agent Collaborative Framework for Text-to-SQL
-[[paper](https://arxiv.org/pdf/2312.11242.pdf)]
-[[code](https://github.com/wbbeyourself/MAC-SQL)]
 [![](https://img.shields.io/badge/Spider-green)](https://yale-lily.github.io/spider)
 [![](https://img.shields.io/badge/BIRD-yellow)](https://bird-bench.github.io/)
 
