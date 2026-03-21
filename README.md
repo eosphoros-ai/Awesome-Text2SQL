@@ -551,6 +551,9 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - Easy-to-use LLM fine-tuning framework (LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, Chat
 
+- [AI2SQL](https://ai2sql.io)
+  - AI2SQL is an AI-powered Text-to-SQL tool that converts natural language to SQL queries for MySQL, PostgreSQL, MongoDB, BigQuery, Snowflake, and more. Beyond query generation, it supports query explanation, optimization, and error fixing. Tutorials and SQL guides available at [builder.ai2sql.io/blog](https://builder.ai2sql.io/blog).
+
 - [Datrics Text2SQL](https://github.com/datrics-ai/text2sql)
 [![GitHub Repo stars](https://img.shields.io/github/stars/datrics-ai/text2sql?style=social)](https://github.com/datrics-ai/text2sql/stargazers)
 ![last commit](https://img.shields.io/github/last-commit/datrics-ai/text2sql?color=green)
@@ -581,7 +584,8 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
   - Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields. Discover in-depth insights and knowledge catered for both beginners and advanced AI enthusiasts.
 
-- [AI2sql](https://ai2sql.io)
--   - AI2sql is a Text-to-SQL tool that enables users to write SQL queries using natural language. It supports multiple databases including MySQL, PostgreSQL, SQL Server, and more. Perfect for data analysts, developers, and anyone who needs to query databases without deep SQL knowledge.
-  [![Star History Chart](https://api.star-history.com/svg?repos=eosphoros-ai/Awesome-Text2SQL&type=Date)](https://star-history.com/#eosphoros-ai/Awesome-Text2SQL)
+- [AI2SQL](https://ai2sql.io)
+  - AI2SQL is an AI-powered SQL query generator that converts natural language to SQL for MySQL, PostgreSQL, MongoDB, BigQuery, Snowflake, and more. It supports query explanation, optimization, and error fixing, making it a comprehensive tool for data analysts, developers, and anyone who needs to query databases without deep SQL knowledge. Blog and tutorials available at [builder.ai2sql.io/blog](https://builder.ai2sql.io/blog).
+
+[![Star History Chart](https://api.star-history.com/svg?repos=eosphoros-ai/Awesome-Text2SQL&type=Date)](https://star-history.com/#eosphoros-ai/Awesome-Text2SQL)
 
