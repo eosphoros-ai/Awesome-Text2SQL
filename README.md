@@ -581,6 +581,9 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
   - Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields. Discover in-depth insights and knowledge catered for both beginners and advanced AI enthusiasts.
 
+- [AI for Database](https://aifordatabase.com)
+  - AI for Database is an agentic AI product that lets you connect to any database and interact with it in plain English. No SQL needed — get instant insights, build self-refreshing dashboards, and trigger automated workflows based on database changes. Supports PostgreSQL, MySQL, MongoDB, and more.
+
 - [AI2sql](https://ai2sql.io)
 -   - AI2sql is a Text-to-SQL tool that enables users to write SQL queries using natural language. It supports multiple databases including MySQL, PostgreSQL, SQL Server, and more. Perfect for data analysts, developers, and anyone who needs to query databases without deep SQL knowledge.
   [![Star History Chart](https://api.star-history.com/svg?repos=eosphoros-ai/Awesome-Text2SQL&type=Date)](https://star-history.com/#eosphoros-ai/Awesome-Text2SQL)
