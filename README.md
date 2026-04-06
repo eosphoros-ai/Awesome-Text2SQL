@@ -11,6 +11,7 @@
 
 Curated tutorials and resources for Large Language Models, Text2SQL, [Text2DSL](Text2DSL.md), [Text2API](Text2API.md), [Text2Vis](Text2Vis.md) and more.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Text2SQL workflow orchestration, automated database query management, and multi-agent coordination. MIT licensed.
 ## 🌱 How to Contribute
 We warmly welcome contributions from everyone, whether you've found a typo, a bug, have a suggestion, or want to share a resource related to LLM+Text2SQL. For detailed guidelines on how to contribute, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
