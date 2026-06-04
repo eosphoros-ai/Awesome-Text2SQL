@@ -530,6 +530,9 @@ for Text-to-SQL
 - [QueryWeaver](https://github.com/FalkorDB/QueryWeaver)
   - QueryWeaver is an open-source graph-powered Text-to-SQL engine that leverages a semantic layer to bridge the gap between natural language and complex relational databases. By mapping database schemas into knowledge graphs using FalkorDB, it provides superior contextual understanding for intricate joins and business logic. The library supports PostgreSQL and MySQL and includes a built-in MCP (Model Context Protocol) server, making it easily integrable into agentic workflows and LLM-based tools like Claude or Cursor.
 
+- [PromptQuery](https://github.com/Cyberfilo/promptquery)
+  - PromptQuery (prq) is a deterministic, read-only natural-language-to-PostgreSQL CLI built for production-scale schemas with hundreds of tables. It pairs a retrieval pipeline (TF-IDF schema selection + an LLM table selector + FK-graph expansion) with a sqlglot safety guard and a read-only execution session, and ships an honest, failures-included benchmark on a 675-table Odoo 18 schema and the public 216-table EMBL-EBI RNAcentral database.
+
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
