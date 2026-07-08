@@ -530,6 +530,9 @@ for Text-to-SQL
 - [QueryWeaver](https://github.com/FalkorDB/QueryWeaver)
   - QueryWeaver is an open-source graph-powered Text-to-SQL engine that leverages a semantic layer to bridge the gap between natural language and complex relational databases. By mapping database schemas into knowledge graphs using FalkorDB, it provides superior contextual understanding for intricate joins and business logic. The library supports PostgreSQL and MySQL and includes a built-in MCP (Model Context Protocol) server, making it easily integrable into agentic workflows and LLM-based tools like Claude or Cursor.
 
+- [sqbyl](https://github.com/jackwerner/sqbyl)
+  - sqbyl is an open-source toolkit to build, evaluate, and iterate on text-to-SQL agents over your own database. It scores with deterministic execution-based comparison (LLM judges are advisory triage only) and enforces dev/test separation as a CI code boundary, so the held-out accuracy number is defensible rather than overfit. One provider key (Anthropic or OpenAI) powers the agent, the judges, and a Coach that proposes applyable fixes; a blessed version ships as a portable JSON served over HTTP or MCP.
+
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
