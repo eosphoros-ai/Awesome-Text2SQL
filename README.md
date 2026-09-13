@@ -556,6 +556,11 @@ for Text-to-SQL
 ![last commit](https://img.shields.io/github/last-commit/datrics-ai/text2sql?color=green)
   - Datrics Text2SQL is an open-source framework that uses a tuned RAG pipeline to generate SQL queries from natural language. It focuses on accurate schema retrieval, resolving ambiguous documentation, and improving generalization on real-world queries.
 
+- [DatI](https://github.com/yimindev/dati)
+[![GitHub Repo stars](https://img.shields.io/github/stars/yimindev/dati?style=social)](https://github.com/yimindev/dati/stargazers)
+![last commit](https://img.shields.io/github/last-commit/yimindev/dati?color=green)
+  - DatI is an open-source AI Agent Database Semantic Gateway with zero-configuration text-to-SQL, automatic schema discovery, semantic modeling, and cross-database query execution across mainstream databases. It also provides built-in Model Context Protocol (MCP) server support for AI agent integration.
+
 ## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
 

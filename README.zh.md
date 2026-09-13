@@ -547,6 +547,11 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
+- [DatI](https://github.com/yimindev/dati)
+[![GitHub Repo stars](https://img.shields.io/github/stars/yimindev/dati?style=social)](https://github.com/yimindev/dati/stargazers)
+![last commit](https://img.shields.io/github/last-commit/yimindev/dati?color=green)
+  - DatI 是一款开源的 AI Agent 数据库语义网关，支持主流数据库的零配置 Text-to-SQL、元数据自动发现、语义建模与跨库查询，并原生支持 Model Context Protocol (MCP) 便于 AI Agent 快速接入。
+
 ## 🔗 引用
 如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
 
