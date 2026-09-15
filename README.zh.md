@@ -550,7 +550,7 @@ for Text-to-SQL
 - [DatI](https://github.com/yimindev/dati)
 [![GitHub Repo stars](https://img.shields.io/github/stars/yimindev/dati?style=social)](https://github.com/yimindev/dati/stargazers)
 ![last commit](https://img.shields.io/github/last-commit/yimindev/dati?color=green)
-  - DatI 是一款开源的 AI Agent 数据库语义网关，支持主流数据库的零配置 Text-to-SQL、元数据自动发现、语义建模与跨库查询，并原生支持 Model Context Protocol (MCP) 便于 AI Agent 快速接入。
+  - DatI (Data Intelligence) 是连接 AI Agent 与数据库的轻量级开源语义网关。用户仅需接入数据库、配置语义信息、按需启用预置工具与参数化 SQL 工具，即可发布标准 Model Context Protocol (MCP) 服务，灵活接入各类 AI Agent 或任意 MCP Host。
 
 ## 🔗 引用
 如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
