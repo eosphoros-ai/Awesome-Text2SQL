@@ -530,6 +530,9 @@ for Text-to-SQL
 - [QueryWeaver](https://github.com/FalkorDB/QueryWeaver)
   - QueryWeaver is an open-source graph-powered Text-to-SQL engine that leverages a semantic layer to bridge the gap between natural language and complex relational databases. By mapping database schemas into knowledge graphs using FalkorDB, it provides superior contextual understanding for intricate joins and business logic. The library supports PostgreSQL and MySQL and includes a built-in MCP (Model Context Protocol) server, making it easily integrable into agentic workflows and LLM-based tools like Claude or Cursor.
 
+- [mnemiq](https://github.com/agenticfabriq/mnemiq)
+  - An Apache-2.0 text-to-SQL engine with configurable schema enrichment, SQL checks, and evaluation on your own database. Includes an MCP interface and returns the SQL and table trace with each answer.
+
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
