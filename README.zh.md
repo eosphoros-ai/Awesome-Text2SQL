@@ -547,6 +547,9 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
+- [jev4pg](https://github.com/Sheltercosmo/jev4pg)
+  - 面向 PostgreSQL 的开源自然语言查询与语义算子项目。支持英语和简体中文提问、查看生成的 SQL，以及结合 LLM 生成 SQL 与 JEV 筛选上下文、审核查询的混合规划。JEV 还可对每条记录进行语义判断，用于筛选和信息提取；连接与聚合由 PostgreSQL 执行。
+
 ## 🔗 引用
 如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
 

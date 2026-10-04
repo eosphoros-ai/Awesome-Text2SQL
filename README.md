@@ -556,6 +556,9 @@ for Text-to-SQL
 ![last commit](https://img.shields.io/github/last-commit/datrics-ai/text2sql?color=green)
   - Datrics Text2SQL is an open-source framework that uses a tuned RAG pipeline to generate SQL queries from natural language. It focuses on accurate schema retrieval, resolving ambiguous documentation, and improving generalization on real-world queries.
 
+- [jev4pg](https://github.com/Sheltercosmo/jev4pg)
+  - Open-source natural-language queries and semantic operators for PostgreSQL. Supports English and Simplified Chinese questions, inspectable SQL, and hybrid planning that combines LLM SQL generation with JEV context selection and review. JEV also evaluates record-level questions for semantic filtering and extraction, while PostgreSQL handles joins and aggregation.
+
 ## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
 
