@@ -581,6 +581,11 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/luban-agi/Awesome-AIGC-Tutorials?color=green)
   - Awesome AIGC Tutorials houses a curated collection of tutorials and resources spanning across Large Language Models, AI Painting, and related fields. Discover in-depth insights and knowledge catered for both beginners and advanced AI enthusiasts.
 
+- [Beekeeper Studio](https://www.beekeeperstudio.io)
+  [![GitHub Repo stars](https://img.shields.io/github/stars/beekeeper-studio/beekeeper-studio?style=social)](https://github.com/beekeeper-studio/beekeeper-studio/stargazers)
+  ![last commit](https://img.shields.io/github/last-commit/beekeeper-studio/beekeeper-studio?color=green)
+  - Beekeeper Studio is a modern and easy to use database manager with a built-in AI Shell (paid tiers) that turns natural-language questions into SQL you can review and run against PostgreSQL, MySQL, SQLite, SQL Server, and more.
+
 - [AI2sql](https://ai2sql.io)
 -   - AI2sql is a Text-to-SQL tool that enables users to write SQL queries using natural language. It supports multiple databases including MySQL, PostgreSQL, SQL Server, and more. Perfect for data analysts, developers, and anyone who needs to query databases without deep SQL knowledge.
   [![Star History Chart](https://api.star-history.com/svg?repos=eosphoros-ai/Awesome-Text2SQL&type=Date)](https://star-history.com/#eosphoros-ai/Awesome-Text2SQL)
