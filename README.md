@@ -530,6 +530,9 @@ for Text-to-SQL
 - [QueryWeaver](https://github.com/FalkorDB/QueryWeaver)
   - QueryWeaver is an open-source graph-powered Text-to-SQL engine that leverages a semantic layer to bridge the gap between natural language and complex relational databases. By mapping database schemas into knowledge graphs using FalkorDB, it provides superior contextual understanding for intricate joins and business logic. The library supports PostgreSQL and MySQL and includes a built-in MCP (Model Context Protocol) server, making it easily integrable into agentic workflows and LLM-based tools like Claude or Cursor.
 
+- [schemagate](https://github.com/ashishsinha1602/schemagate)
+  - schemagate is an open-source Python library and MCP server that selects the tables a question needs and hides the tables and columns a caller may not read (role rules, database GRANTs, row-level security), before the model writes SQL. It works on PostgreSQL, MySQL, SQL Server, Oracle and SQLite. On BIRD Mini-Dev ([results](https://github.com/ashishsinha1602/schemagate/tree/main/benchmarks/results/bird_minidev)) it scores 81.0 / 72.6 / 72.4 EX on SQLite / PostgreSQL / MySQL with Claude Opus 5.5. On UniQL's Oracle dialect ([results](https://github.com/ashishsinha1602/schemagate/tree/main/benchmarks/results/uniql_oracle)) it scores 64.5% first-try with Gemini 2.5 Flash.
+
 ## 🔧 Practice Project
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
