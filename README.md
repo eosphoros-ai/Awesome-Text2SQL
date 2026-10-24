@@ -556,6 +556,11 @@ for Text-to-SQL
 ![last commit](https://img.shields.io/github/last-commit/datrics-ai/text2sql?color=green)
   - Datrics Text2SQL is an open-source framework that uses a tuned RAG pipeline to generate SQL queries from natural language. It focuses on accurate schema retrieval, resolving ambiguous documentation, and improving generalization on real-world queries.
 
+- [tipdm-b-financial-qa](https://github.com/liu380824/tipdm-b-financial-qa)
+[![GitHub Repo stars](https://img.shields.io/github/stars/liu380824/tipdm-b-financial-qa?style=social)](https://github.com/liu380824/tipdm-b-financial-qa/stargazers)
+![last commit](https://img.shields.io/github/last-commit/liu380824/tipdm-b-financial-qa?color=green)
+  - An end-to-end question-answering system over financial reports of A-share traditional-Chinese-medicine (TCM) listed companies: it converts unstructured annual-report PDFs into a structured SQLite database with a "regex-first, LLM-fallback" hybrid extraction engine, then answers natural-language questions through NL2SQL with multi-turn dialogue, query rewriting, automatic ECharts charting and attribution analysis, while tracing every field back to its source PDF page. It also ships a research-report RAG knowledge base and a 7-dimension benchmark against mainstream LLM products.
+
 ## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
 

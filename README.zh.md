@@ -547,6 +547,11 @@ for Text-to-SQL
   ![last commit](https://img.shields.io/github/last-commit/hiyouga/LLaMA-Efficient-Tuning?color=green)
   - 这是一个易于使用的LLM微调框架，支持LLaMA-2、BLOOM、Falcon、Baichuan、Qwen、ChatGLM2等。
 
+- [tipdm-b-financial-qa](https://github.com/liu380824/tipdm-b-financial-qa)
+[![GitHub Repo stars](https://img.shields.io/github/stars/liu380824/tipdm-b-financial-qa?style=social)](https://github.com/liu380824/tipdm-b-financial-qa/stargazers)
+![last commit](https://img.shields.io/github/last-commit/liu380824/tipdm-b-financial-qa?color=green)
+  - 面向 A 股中药上市公司财报的中文「智能问数」系统：以「正则优先、LLM 兜底」的混合抽取引擎将非结构化财报 PDF 转为结构化 SQLite 数据库，再经 NL2SQL 完成自然语言问答，支持多轮对话、追问改写、ECharts 自动图表与归因分析，并可把每个字段溯源到源 PDF 页码；另含研报 RAG 知识库与对主流大模型的七维度横向评测。
+
 ## 🔗 引用
 如果您发现`Text2SQL`对您的研究或开发有用，请引用以下<a href="https://arxiv.org/abs/2406.11434" target="_blank">论文</a>：
 
