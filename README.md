@@ -555,6 +555,10 @@ for Text-to-SQL
 [![GitHub Repo stars](https://img.shields.io/github/stars/datrics-ai/text2sql?style=social)](https://github.com/datrics-ai/text2sql/stargazers)
 ![last commit](https://img.shields.io/github/last-commit/datrics-ai/text2sql?color=green)
   - Datrics Text2SQL is an open-source framework that uses a tuned RAG pipeline to generate SQL queries from natural language. It focuses on accurate schema retrieval, resolving ambiguous documentation, and improving generalization on real-world queries.
+- [supersonic-ontology](https://github.com/lyhmain/supersonic-ontology)
+[![GitHub Repo stars](https://img.shields.io/github/stars/lyhmain/supersonic-ontology?style=social)](https://github.com/lyhmain/supersonic-ontology/stargazers)
+![last commit](https://img.shields.io/github/last-commit/lyhmain/supersonic-ontology?color=green)
+  - SuperSonic dual plug-ins for enterprise ChatBI: an ontology-driven NL2Analytics sidecar (configurable semantic profiles, exact business-caliber reconciliation against the warehouse, acceptance-test gates before go-live, attribution drill-down, bad-case loop) plus a JEV+RAG knowledge-base plug-in (LangGraph pipelines, citation tracing, refuse-to-answer gating, data-intent interception). Runs alongside SuperSonic with zero upstream source modification.
 
 ## 🔗 Citation
  If you find `Text2SQL` useful for your research or development, please cite the following <a href="https://arxiv.org/abs/2406.11434" target="_blank">paper</a>:
